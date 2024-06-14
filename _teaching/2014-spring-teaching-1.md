@@ -1,12 +1,6 @@
----
-title: "Teaching experience 2"
-collection: teaching
-type: "Workshop"
-permalink: /teaching/2015-spring-teaching-1
-venue: "University 1, Department"
-date: 2015-01-01
-location: "City, Country"
---- Software Engineer 
+
+--- 
+zSoftware Engineer 
 
 #### Technical Skills: Python, Django, NodeJS, Postgresql, Mongodb AWS
 
@@ -59,3 +53,5 @@ My responsibilities extended to supporting research efforts of my supervisor, as
 - Decreased user waiting time for progressive JPEG by 54%, and image size by 27% without compromising image quality.
 - Tested the image qualities in SSIM; analyzed results from a custom-made dataset of 1200 images and COCO Dataset.
 - Emulated a blockchain network with 50 Nginx VM servers and used proxy servers to detect the attack. Mitigated 66.7% of the DDoS attacks using memory management of only 50 VM’s.
+
+---
