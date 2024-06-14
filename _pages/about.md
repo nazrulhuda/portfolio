@@ -9,10 +9,10 @@ redirect_from:
 ---
 
 ![Illustration of combining vision and language modalities](images/tj.jfif){: .align-right width="400px"}
-🧑‍🎓 I'm a Graduate Research Assistant and a fully funded MS in Computer Science student at Oklahoma State University, maintaining a perfect GPA of 4.0/4.0. My current research focuses on leveraging AI to implement adaptive security in microservices.
+🎓 I'm a Graduate Research Assistant and a fully funded MS in Computer Science student at Oklahoma State University, maintaining a perfect GPA of 4.0/4.0. 
 
-🔍 Previously I worked as a Junior Software Engineer at Tirzok private Limited, where my work ranged from building backend systems using clients' preferred frameworks and database as well as developing AI solutions and integrating AWS services.
+💼 With over 11 months of experience as a Junior Software Engineer at Tirzok Private Ltd., I am specialized in backend development. My work ranged from developing AI solutions and integrating AWS services to building backend systems using clients' preferred frameworks and databases.
 
 📚 I also have over two years of experience as an Undergraduate Research Assistant at BRAC University, where I honed my skills in data collection and analysis.
 
-🤝 I am also interested in assisting others on their path in the world of Machine Learning and academia.
+
