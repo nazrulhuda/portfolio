@@ -6,6 +6,8 @@ main:
   - title: "My Personal BLog Website"
     url: https://nazrulxh.onrender.com/
 
+  - title: "Work Experience"
+    url: /workex/ 
 
   - title: "Publications"
     url: https://scholar.google.com/citations?user=N9aZcZYAAAAJ&hl=en
@@ -15,8 +17,7 @@ main:
   - title: "Education"
     url: /edu/    
 
-  - title: "Work Experience"
-    url: /workex/    
+     
     
 
         

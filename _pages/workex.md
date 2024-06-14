@@ -1,5 +1,5 @@
 ---
-title: "👋 Hello there, I'm Nazrul!"
+title: ""
 excerpt: "About me"
 author_profile: true
 redirect_from:
