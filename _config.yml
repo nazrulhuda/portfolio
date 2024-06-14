@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Nazrul's Homepage'"
+title                    : "Nazrul's Homepage"
 title_separator          : "-"
 name                     : &name "Nazrul Huda Shanto"
 description              : &description "personal description"
