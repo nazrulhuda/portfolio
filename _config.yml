@@ -37,7 +37,7 @@ author:
   #orcid            : "http://orcid.org/yourorcidurl"
   #semantic         : # URL
  # pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  researchgate     : "#https://www.researchgate.net/profile/Nazrul-Huda-Shanto"
+  researchgate     : "https://www.researchgate.net/profile/Nazrul-Huda-Shanto"
 
   # Repositories and software development
   bitbucket        : # Username - Update with your username on the site
@@ -49,7 +49,7 @@ author:
 
   # Social media
  # bluesky          : "bsky.app" # Replace this with you Bluesky username
-  facebook         : "https://www.facebook.com/ctg.nhs"
+  facebook         : "ctg.nhs"
  # flickr           : # Username
  # foursquare       : # Username
  # goodreads        : # Username
