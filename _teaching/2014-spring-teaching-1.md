@@ -1,14 +1,19 @@
 
---- 
-zSoftware Engineer 
+---
+layout: archive
+title: "Work Experience"
+permalink: /teaching/
+author_profile: true
+---
+Software Engineer 
 
-#### Technical Skills: Python, Django, NodeJS, Postgresql, Mongodb AWS
+Technical Skills: Python, Django, NodeJS, Postgresql, Mongodb AWS
 
-## Education							       		
+Education							       		
 - M.S., Computer Science (CGPA 4.00/4.00)	| Oklahoma State University (_December 2025_)	 			        		
 - B.S., Computer Science (CGPA 3.36/4.00) | BRAC University (_May 2022_)
 
-## Work Experience
+Work Experience
 **Graduate Research Assistant @ Oklahoma State University (_Jan 2024 - Present_)**
 - Extracted source ip, request behavior and other traffic information of microservices using envoy access logs of istio and distrubed tracing zipin.
 - Creating dataset using unusual traffic pattern in microservices and making an ML model to detect suspicious users.
