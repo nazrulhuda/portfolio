@@ -1,0 +1,22 @@
+# main links links
+main:
+  - title: "Publications"
+    url: https://scholar.google.com/citations?user=N9aZcZYAAAAJ&hl=en
+
+ # - title: "Talks"
+  #  url: /talks/    
+
+  #- title: "Teaching"
+ #   url: /teaching/    
+    
+  - title: "Portfolio"
+    url: https://nazrulhudashanto.onrender.com/
+        
+  #- title: "Blog Posts"
+    #url: /year-archive/
+    
+  - title: "CV"
+    url: /files/Resume.pdf/
+    
+  #- title: "Guide"
+ #   url: /markdown/
