@@ -7,13 +7,8 @@ redirect_from:
   - /workex.html
 ---
 
-# Software Engineer 
-
 #### Technical Skills: Python, Django, NodeJS, Postgresql, Mongodb AWS
 
-## Education							       		
-- M.S., Computer Science (CGPA 4.00/4.00)	| Oklahoma State University (_December 2025_)	 			        		
-- B.S., Computer Science (CGPA 3.36/4.00) | BRAC University (_May 2022_)
 
 ## Work Experience
 **Graduate Research Assistant @ Oklahoma State University (_Jan 2024 - Present_)**
