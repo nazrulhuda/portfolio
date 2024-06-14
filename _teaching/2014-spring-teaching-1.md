@@ -1,5 +1,4 @@
 ---
-permalink: /
 title: "Work Experience"
 excerpt: "teaching"
 author_profile: true
