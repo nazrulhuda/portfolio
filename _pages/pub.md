@@ -7,7 +7,7 @@ redirect_from:
   - /pub.html
 ---
 
-# [Darkness under The Lamp: Physical Access Divide And Its Consequences among The Little-Known Indigenous Communities in Bangladesh](https://drive.google.com/file/d/1du3GCWL3Qdkvn4oCvuEXCmyPL9dvU5ev/view?usp=sharing)
+# ([Darkness under The Lamp: Physical Access Divide And Its Consequences among The Little-Known Indigenous Communities in Bangladesh])(https://drive.google.com/file/d/1du3GCWL3Qdkvn4oCvuEXCmyPL9dvU5ev/view?usp=sharing)
 
 [In Review][Nominated for the second round (top 48.1%) in CHI ’23; received notification on November 8, 2022]
 
