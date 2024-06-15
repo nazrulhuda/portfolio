@@ -26,6 +26,18 @@ Since massive numbers of images are now being communicated from, and stored in d
 
 
 
+# [Mitigating DDoS Attacks Using a Resource Sharing Network](https://dl.acm.org/doi/10.1145/3569551.3569560)
+
+**Published in:** *2022 9th International Conference on Networking, Systems and Security (NSysS)*
+
+Cloud computing has gained noticeable popularity due to its ability to radically improve computing power through the application of virtual machines. In this era of the internet, however, security threats are increasing and it is costing many businesses. The seemingly legitimate traffic of these application-level attacks renders the previous detection and mitigation methods ineffective. These cyber-attacks have grown ever so sophisticated and the detection and mitigation of these attacks has become one of the major concerns of security researchers and cloud service providers all around the globe. In this paper, we propose a resource sharing method to create a universal solution to mitigate DDoS attacks. We use an existing filtering method to track the IP addresses of attackers, then send them to the proxy server and delete unwanted IP packet requests by memory management system. Later, we emulate the blockchain network using 50 Nginx VM servers as a start to show the potential of our proposal. We show that our method can mitigate 66% of attacks with only 50VMs. To maximize the capability of mitigating DDoS attacks of our network, we need to increase the number of VM’s and it may take at least a few dozen developers working years on end to develop. Therefore, the goal of this paper is to lay the foundation on which one day the universal solution will be created.
+
+**Citation**: *F. F. Khan, N. M. Hossain, M. N. H. Shanto, S. B. Anwar and J. Noor*
+
+[Download this Paper](https://drive.google.com/file/d/17sSTnMUliFHx3iNOe2Pc7DFkJX0fHLzH/view)
+
+
+
 # [Darkness under The Lamp: Physical Access Divide And Its Consequences among The Little-Known Indigenous Communities in Bangladesh](https://drive.google.com/file/d/1du3GCWL3Qdkvn4oCvuEXCmyPL9dvU5ev/view?usp=sharing)
 
 **[In Review]:** *[Nominated for the second round (top 48.1%) in CHI ’23; received notification on November 8, 2022]*
@@ -34,6 +46,6 @@ In the high mountains of southeast Bandarban, highly vulnerable ethnic communiti
 
 **Citation:** *M. N. H. Shanto, J. Noor, M. G. Z. A. Husna, and A. B. M. A. A. Islam*
 
-[View Unpublished papaer](https://drive.google.com/file/d/1du3GCWL3Qdkvn4oCvuEXCmyPL9dvU5ev/view?usp=sharing)
+[View Unpublished paper](https://drive.google.com/file/d/1du3GCWL3Qdkvn4oCvuEXCmyPL9dvU5ev/view?usp=sharing)
 
 
