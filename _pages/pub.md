@@ -72,13 +72,13 @@ State government operations comprise a large number of transactions for differen
 [Download this Paper](https://aircconline.com/csit/papers/vol12/csit121820.pdf)
 
 
-# [Leveraging Pre-Primary Education of Indigenous Communities in Bangladesh through Participatory and Iterative Development of Online Resources](https://drive.google.com/file/d/1du3GCWL3Qdkvn4oCvuEXCmyPL9dvU5ev/view)
+# [Towards Decolonizing HVECs-HCI: Multi Level Digital Divide of the little known highly vulnerable ethnic communities in Southeast Bandarban](https://drive.google.com/file/d/1du3GCWL3Qdkvn4oCvuEXCmyPL9dvU5ev/view)
 
-**[In Review]:** *[Information Technology for Development]*
+**[In Review]:**
 
-Bangladesh's indigenous children are struggling to adapt to the country's educational system. As a result, a significant portion of indigenous children is dropping out of school. In order to determine why indigenous people are lagging behind mainstream populations in terms of education, we interview a total of 140 participants who are involved with indigenous primary education in the Chittagong hill Tracts of Bangladesh. Our findings show that for indigenous children, language barriers are the main obstacle towards obtaining a quality education. To seek a remedy, we make multiple visits and interact with people involved with indigenous education. We observe that a website with educational materials in indigenous languages can assist indigenous children to receive a high-quality education. However, designing a website in this context is a critical task, as most people are outside of digital connectivity. For remedy, we bring a new perspective on how local intermediaries can directly support indigenous children to access internet. Through Iterative Participatory Design, in this paper, we design an educational website called IPE (Indigenous Primary Education) using online resources. Also, we explain that local primary school teachers and the local bengali people can guarantee that indigenous students have access to IPE. The IPE website, designed with local input and addressing the specific needs of the indigenous population in CHT, offers a new approach to supporting vulnerable children's education in the global south.
+In this paper, we discover a multi-level digital divide with the highly vulnerable ethnic communities (HVECs) living over the mountains in the southeastern part of Bangladesh. Due to multiple military conflicts and the extreme geographic location of the area, no previous study has been conducted with HVECs. By conducting quantitative and qualitative research with 72 participants, we explore the opportunities, issues, and digital divide extent that arise in designing technologies to support HVECs. We reveal that 34.2\% of HVECs participants never used the Internet in their lives, and only 13.7\% HVEC participants use the Internet once a week. Moreover, we discuss their Internet skills, outcomes, and the reasons for not using the internet productively. Our contribution is not aimed at ``solving'' the digital divide problem and designing for HVECs but at broadening the understanding of the HCI4D/ICT4D community regarding the digital divide's patterns and technology design within distant indigenous communities.
 
-**Citation:** *J. Noor, T. Azhar, S. S. Karmakar, M. N. H. Shanto, F. E. Jannat, S. M. B. Hossain, and A. B. M. A. A. Islam*
+**Citation:** *J. Noor, **M. N. H. Shanto**,M. G. Z. A. Husna, and A. B. M. A. A. Islam,*
 
 [View Unpublished paper](https://drive.google.com/file/d/1du3GCWL3Qdkvn4oCvuEXCmyPL9dvU5ev/view)
 
