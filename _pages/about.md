@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 
-![Illustration of combining vision and language modalities](images/tj.jfif){: .align-right width="300px"}
+![Illustration of combining vision and language modalities](images/tj.jfif){: .align-right width="200px"}
 
 
 🎓 I'm a Graduate Research Assistant and a fully funded MS in Computer Science student at Oklahoma State University, maintaining a perfect GPA of 4.0/4.0. 
