@@ -1,5 +1,5 @@
 ---
-title: "Cinematic Video"
+title: ""
 excerpt: "About me"
 author_profile: true
 redirect_from:
@@ -9,6 +9,7 @@ redirect_from:
 
 Beyond the halls of academia, I lose myself in the whispers of nature, hiking through trails unknown, and lending my voice to the stage’s embrace. The allure of acting and crafting cinematic tales draws me into realms of creativity and expression.
 
+# Cinematic Video
 
 ### Camping and Hiking in Mcmurtry lake 
 
