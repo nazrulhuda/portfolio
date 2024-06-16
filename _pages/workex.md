@@ -19,17 +19,15 @@ Beyond the halls of academia, I lose myself in the whispers of nature, hiking th
 
 ### Solo Travel in Miami 
 
-<div class="video-container" data-aos="fade-right" data-aos-delay="400">
+<div class="video-container" data-aos="fade-right" data-aos-delay="400"  style="margin-bottom: 20px;">
     <iframe width="400" height="200" src="https://www.youtube.com/embed/aywzo952Nx8" frameborder="0" allowfullscreen></iframe>
 </div>
-
-
 
 # Acting
 
 ### [Acted as a model for a TVC for Airtel](https://www.linkedin.com/posts/nazrulhudashanto_working-with-little-big-films-for-airtel-activity-6959507803602345984-liaX?utm_source=share&utm_medium=member_desktop)
 
-<div class="video-container" data-aos="fade-right" data-aos-delay="400">
+<div class="video-container" data-aos="fade-right" data-aos-delay="400"  style="margin-bottom: 20px;">
     <iframe width="400" height="200" src="https://www.youtube.com/embed/Id7NcNQ_qww" frameborder="0" allowfullscreen></iframe>
 </div>
 
