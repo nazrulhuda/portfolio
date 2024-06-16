@@ -7,6 +7,9 @@ redirect_from:
   - /workex.html
 ---
 
+Beyond the halls of academia, I lose myself in the whispers of nature, hiking through trails unknown, and lending my voice to the stage’s embrace. The allure of acting and crafting cinematic tales draws me into realms of creativity and expression.
+
+
 ### Camping and Hiking in Mcmurtry lake 
 
 <div class="video-container" data-aos="fade-right" data-aos-delay="400">
@@ -19,15 +22,20 @@ redirect_from:
     <iframe width="400" height="200" src="https://www.youtube.com/embed/aywzo952Nx8" frameborder="0" allowfullscreen></iframe>
 </div>
 
+
+
 # Acting
 
-### Acted as a model for a TVC for Airtel 
+### [Acted as a model for a TVC for Airtel](https://www.linkedin.com/posts/nazrulhudashanto_working-with-little-big-films-for-airtel-activity-6959507803602345984-liaX?utm_source=share&utm_medium=member_desktop)
 
 <div class="video-container" data-aos="fade-right" data-aos-delay="400">
-    <video width="400" height="200" controls>
-        <source src="{{ 'images/camping.mp4' | relative_url }}" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
+    <iframe width="400" height="200" src="https://www.youtube.com/embed/Id7NcNQ_qww" frameborder="0" allowfullscreen></iframe>
 </div>
+
+# Singing
+
+
+
+
 
 
