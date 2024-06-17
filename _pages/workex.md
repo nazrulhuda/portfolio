@@ -35,7 +35,7 @@ Beyond the halls of Academia, I have a deep appreciation for nature, often explo
 ### Performed 'Hariye Giyechi' in RS50 Cultural Night
 
 <div class="video-container" data-aos="fade-right" data-aos-delay="400">
-    <iframe src="https://drive.google.com/file/d/1cBbEUjZ6g8XaTWqMpAGw_uZXiC3JCww5/preview" width="600" height="300" allow="autoplay"></iframe>
+    <iframe src="https://drive.google.com/file/d/1cBbEUjZ6g8XaTWqMpAGw_uZXiC3JCww5/preview" width="900" height="450" allow="autoplay"></iframe>
 </div>
 
 
