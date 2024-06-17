@@ -24,7 +24,6 @@ Beyond the halls of academia, I lose myself in the whispers of nature, hiking th
 </div>
 
 # Acting
-
 ### [Acted as a model for a TVC for Airtel](https://www.linkedin.com/posts/nazrulhudashanto_working-with-little-big-films-for-airtel-activity-6959507803602345984-liaX?utm_source=share&utm_medium=member_desktop)
 
 <div class="video-container" data-aos="fade-right" data-aos-delay="400"  style="margin-bottom: 20px;">
@@ -33,10 +32,10 @@ Beyond the halls of academia, I lose myself in the whispers of nature, hiking th
 
 # Singing
 
-### Sang 'Hariye Giyechi' in RS50 Cultural Night
+### Performed 'Hariye Giyechi' in RS50 Cultural Night
 
 <div class="video-container" data-aos="fade-right" data-aos-delay="400">
-    <iframe src="https://drive.google.com/file/d/1cBbEUjZ6g8XaTWqMpAGw_uZXiC3JCww5/preview" width="400" height="300" allow="autoplay"></iframe>
+    <iframe src="https://drive.google.com/file/d/1cBbEUjZ6g8XaTWqMpAGw_uZXiC3JCww5/preview" width="600" height="300" allow="autoplay"></iframe>
 </div>
 
 
