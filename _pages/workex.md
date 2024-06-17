@@ -11,7 +11,7 @@ Beyond the halls of academia, I lose myself in the whispers of nature, hiking th
 
 # Cinematic Video
 
-### Camping and Hiking in Mcmurtry lake 
+### Camping and Hiking at Lake McMurtry 
 
 <div class="video-container" data-aos="fade-right" data-aos-delay="400">
     <iframe width="400" height="200" src="https://www.youtube.com/embed/D5eQWIRp95Y" frameborder="0" allowfullscreen></iframe>
