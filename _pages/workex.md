@@ -7,7 +7,7 @@ redirect_from:
   - /workex.html
 ---
 
-Beyond the halls of academia, I lose myself in the whispers of nature, hiking through trails unknown, and lending my voice to the stage’s embrace. The allure of acting and crafting cinematic tales draws me into realms of creativity and expression.
+Beyond the halls of Academia, I have a deep appreciation for nature, often exploring new trails. My passion for acting and filmmaking allows me to channel my creativity into crafting cinematic videos, while my love for singing provides another avenue for artistic expression. 
 
 # Cinematic Video
 
