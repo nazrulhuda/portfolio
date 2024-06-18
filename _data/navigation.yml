@@ -3,14 +3,18 @@ main:
   - title: "CV"
     url: files/resume.pdf
 
-  - title: "My Personal Blog Website"
-    url: https://nazrulxh.onrender.com/
+  - title: "Hobbies"
+    url: /workex/
 
   - title: "Publications"
     url: /pub/
+
+  - title: "My Personal Blog Website (Might take a while to load, as I am using free hosting services)"
+    url: https://nazrulxh.onrender.com/
+
+  
      
-  - title: "Hobbies"
-    url: /workex/
+  
     
  
     
