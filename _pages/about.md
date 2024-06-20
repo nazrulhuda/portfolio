@@ -10,7 +10,7 @@ redirect_from:
 
 
 
-🎓 I'm a Graduate Research Assistant and a fully funded MS in Computer Science student at Oklahoma State University, maintaining a perfect GPA of 4.0/4.0. 
+🎓 I'm a Graduate Research Assistant and a fully funded MS in Computer Science student at Oklahoma State University, maintaining a perfect GPA of 4.0/4.0. ![Editing a markdown file for a talk](/oo.png)
 
 💼 With over 11 months of experience as a Junior Software Engineer at Tirzok Private Ltd., I am specialized in backend development. My work ranged from developing AI solutions and integrating AWS services to building backend systems using clients' preferred frameworks and databases.
 
