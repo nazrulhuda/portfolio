@@ -7,7 +7,7 @@ redirect_from:
   - /project.html
 ---
 
-## Project: BRACU-ResearcherHub
+## Project: [BRACU-ResearcherHub](https://github.com/nazrulhuda/BRACU-ResearcherHub)
 
 Social media for BRAC University researchers to find collaborators. Researchers can create separate research labs within specific research areas. If other researchers find the lab interesting; they can join and comment on the lab. An efficient way to find the next research collaborator.
 
@@ -18,19 +18,25 @@ Live at: [Live Demo](https://bracuresearcherhub.onrender.com/) (might take a min
 Used tools: Django · Django REST Framework · PostgreSQL · SQLite
 
 
-## Project: Devising a Faster Video Streaming Architecture using Low Bandwidth Video Compression Techniques
+## Project: [Devising a Faster Video Streaming Architecture using Low Bandwidth Video Compression Techniques](https://github.com/nazrulhuda/video-codec-for-live-streaming)
 
 This project is a part of the Research Proposal. Compared different codecs for live video streaming.
 
 - Used FFmeg’s libx264 for H.264, libx265 for H.265, and libvpx-vp9 for VP9. To compare qualities, used SSIM, PSNR,
 and VMAF. 
 - Tuned the settings in real-time functionality to imitate live video streaming.This project is a part of the Research Proposal. Compared different codecs for live video streaming. 
-- Used FFmeg’s libx264 for H.264, libx265 for H.265, and libvpx-vp9 for VP9. To compare qualities, used SSIM, PSNR, and VMAF. 
 - Tuned the settings in real-time functionality to imitate live video streaming.
+
+[Github Code](https://github.com/nazrulhuda/video-codec-for-live-streaming)
+
+[Demo](https://drive.google.com/drive/folders/1suAXftI_kIxC6uC3wOEdZ9SXCUqj-kDD)  
+
+[Project Proposal](https://drive.google.com/file/d/1N-N8vKTUDKGdihXKxqsE0Rm-IeuU5Rmt/view)  
+
+
 
 Used tools: Ffmpeg · CentOS
 
-Github Link: https://github.com/nazrulhuda/BRACU-ResearcherHub
 
 Live at: https://bracuresearcherhub.onrender.com/ (might take a minute to load, as I am using free version of render)
 
