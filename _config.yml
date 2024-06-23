@@ -12,7 +12,7 @@ title                    : "Nazrul's Homepage"
 title_separator          : "-"
 name                     : &name "Nazrul Huda Shanto"
 description              : &description "personal description"
-url                      : "https://www.nazrulxh.com"
+url                      : "https://nazrulxh.com"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/academicpages.github.io"
 
