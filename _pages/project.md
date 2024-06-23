@@ -11,9 +11,7 @@ redirect_from:
 
 Social media for BRAC University researchers to find collaborators. Researchers can create separate research labs within specific research areas. If other researchers find the lab interesting; they can join and comment on the lab. An efficient way to find the next research collaborator.
 
-Github Link:  [Github Code](https://github.com/nazrulhuda/BRACU-ResearcherHub)
-
-Live at: [Live Demo](https://bracuresearcherhub.onrender.com/) (might take a minute to load, as I am using free version of render)
+Link for [Github Code](https://github.com/nazrulhuda/BRACU-ResearcherHub), [Live Demo](https://bracuresearcherhub.onrender.com/) (might take a minute to load, as I am using free version of render)
 
 Used tools: Django · Django REST Framework · PostgreSQL · SQLite
 
@@ -27,21 +25,9 @@ and VMAF.
 - Tuned the settings in real-time functionality to imitate live video streaming.This project is a part of the Research Proposal. Compared different codecs for live video streaming. 
 - Tuned the settings in real-time functionality to imitate live video streaming.
 
-[Github Code](https://github.com/nazrulhuda/video-codec-for-live-streaming)
-
-[Demo](https://drive.google.com/drive/folders/1suAXftI_kIxC6uC3wOEdZ9SXCUqj-kDD)  
-
-[Project Proposal](https://drive.google.com/file/d/1N-N8vKTUDKGdihXKxqsE0Rm-IeuU5Rmt/view)  
-
-
+Links for [Github Code](https://github.com/nazrulhuda/video-codec-for-live-streaming), [Demo](https://drive.google.com/drive/folders/1suAXftI_kIxC6uC3wOEdZ9SXCUqj-kDD), and [Project Proposal](https://drive.google.com/file/d/1N-N8vKTUDKGdihXKxqsE0Rm-IeuU5Rmt/view)  
 
 Used tools: Ffmpeg · CentOS
-
-
-Live at: https://bracuresearcherhub.onrender.com/ (might take a minute to load, as I am using free version of render)
-
-Used Stacks: Django · Django REST Framework · PostgreSQL · SQLite
-
 
 ## Project: Mortgage Management System. 
 Client: Kramasoft.
