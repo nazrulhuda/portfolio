@@ -38,6 +38,14 @@ By customizing the Progressive JPEG method, we propose a new Scan Script to ensu
 
 **Used Tools:** Ffmpeg · OpenStack · CentOS
 
+## Project: [Personal Blog Website](https://github.com/nazrulhuda/nazrulhudashanto)
+
+This is the Blog website, I made for fun. You can contact me directly through that website.
+
+Link for [Github Code](https://github.com/nazrulhuda/nazrulhudashanto), [Live Demo](https://nazrulxh.onrender.com/) (might take a minute to load, as I am using free version of render)
+
+**Used tools:** Django · SQLite
+
 
 
 ## Project: Implementing adaptive security in distributed systems (Ongoing)
@@ -83,6 +91,7 @@ Links for [Demo](https://drive.google.com/drive/folders/1EeoPtclp0twt1duJFrJmcXI
 - Integrated AmazonMQ (RabbitMQ) for seamless internal communication and Deployed in AWS Lambda using ECR.
 
 Link of [Website](https://kramasoft.com/landing)  
+
 
 ## Project: Government-Citizen Interaction Portal. 
 **Client:** Janatar Sarkar 
