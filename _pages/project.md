@@ -7,6 +7,16 @@ redirect_from:
   - /project.html
 ---
 
+## Project: BRACU-ResearcherHub
+
+Social media for BRAC University researchers to find collaborators. Researchers can create separate research labs within specific research areas. If other researchers find the lab interesting; they can join and comment on the lab. An efficient way to find the next research collaborator.
+
+Github Link: https://github.com/nazrulhuda/BRACU-ResearcherHub
+
+Live at: https://bracuresearcherhub.onrender.com/ (might take a minute to load, as I am using free version of render)
+
+Used Stacks: Django · Django REST Framework · PostgreSQL · SQLite
+
 ## Project: Mortgage Management System. 
 Client: Kramasoft.
 My Tasks: Automatic Document Validation.
@@ -24,7 +34,9 @@ My Tasks: Managing Citizen Portal, Role Management and Security.
 - Crafted RESTful APIs for the citizen portal using Node.js and MongoDB.
 - Architected a robust Role Management System using JWT authentication, Node.js, and MongoDB, ensuring secure and tailored access control.
 
-## Project: Payroll and Tax Management System. Client: Payconz. My Tasks: Multi Currency Convertion.
+## Project: Payroll and Tax Management System. 
+Client: Payconz. 
+My Tasks: Multi Currency Convertion.
 
 - Developed a Flask-based currency conversion API integrated with PostgreSQL, facilitating real-time multi-currency payroll processing.
 - Implemented APIs to generate comprehensive currency history reports for preceding months.
