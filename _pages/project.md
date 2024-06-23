@@ -3,8 +3,8 @@ title: ""
 excerpt: "About me"
 author_profile: true
 redirect_from:
-  - /workex/
-  - /workex.html
+  - /project/
+  - /project.html
 ---
 
 ## Project: Mortgage Management System. 
