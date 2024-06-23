@@ -7,7 +7,7 @@ main:
     url: /project/
 
   - title: "Hobbies"
-    url: /workex/
+    url: /hobbies/
 
   - title: "Publications"
     url: /pub/

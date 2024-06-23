@@ -3,8 +3,8 @@ title: ""
 excerpt: "About me"
 author_profile: true
 redirect_from:
-  - /workex/
-  - /workex.html
+  - /hobbies/
+  - /hobbies.html
 ---
 
 Beyond the halls of Academia, I have a deep appreciation for nature, often exploring new trails. My passion for acting and filmmaking allows me to channel my creativity into crafting cinematic videos, while my love for singing provides another avenue for artistic expression. 
