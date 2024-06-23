@@ -13,7 +13,7 @@ Social media for BRAC University researchers to find collaborators. Researchers 
 
 Link for [Github Code](https://github.com/nazrulhuda/BRACU-ResearcherHub), [Live Demo](https://bracuresearcherhub.onrender.com/) (might take a minute to load, as I am using free version of render)
 
-Used tools: Django · Django REST Framework · PostgreSQL · SQLite
+**Used tools:** Django · Django REST Framework · PostgreSQL · SQLite
 
 
 ## Project: [Devising a Faster Video Streaming Architecture using Low Bandwidth Video Compression Techniques](https://github.com/nazrulhuda/video-codec-for-live-streaming)
@@ -27,7 +27,7 @@ and VMAF.
 
 Links for [Github Code](https://github.com/nazrulhuda/video-codec-for-live-streaming), [Demo](https://drive.google.com/drive/folders/1suAXftI_kIxC6uC3wOEdZ9SXCUqj-kDD), and [Project Proposal](https://drive.google.com/file/d/1N-N8vKTUDKGdihXKxqsE0Rm-IeuU5Rmt/view)  
 
-Used tools: Ffmpeg · CentOS
+**Used tools:** Ffmpeg · CentOS
 
 
 
@@ -36,7 +36,7 @@ Used tools: Ffmpeg · CentOS
 
 By customizing the Progressive JPEG method, we propose a new Scan Script to ensure Faster Image Retrieval. Furthermore, we also propose a new lossy PJPEG architecture to reduce the file size as a solution to overcome our Scan Script’s drawback. We evaluate our proposed orchestration in a real-world setting across two continents encompassing a private cloud. Compared to existing alternatives, our proposed orchestration can improve user waiting time by up to 54% and decrease image size by up to 27%. Our proposed work is tested in cutting-edge cloud apps, ensuring up to 69% quicker loading time.
 
-Used Tools: Ffmpeg · OpenStack · CentOS
+**Used Tools:** Ffmpeg · OpenStack · CentOS
 
 
 
@@ -48,17 +48,17 @@ Used Tools: Ffmpeg · OpenStack · CentOS
 - Creating a dataset using the extracted traffic requests and developed an ML model to detect suspicious users.
 - Implementing adaptive security in distributed systems with Kubernetes and Istio service mesh.
 
-Used Tools: Kubernetes · Istio · zipkin · Prometheus.io · Grafana
+**Used Tools:** Kubernetes · Istio · zipkin · Prometheus.io · Grafana
 
 
 ## Project: Payroll and Tax Management System.
 
-Client: Payconz. My Tasks: Multi Currency Convertion.
+**Client:** Payconz. **My Tasks:** Multi Currency Convertion.
 
 - Developed a Flask-based currency conversion API integrated with PostgreSQL, facilitating real-time multi-currency payroll processing.
-- Implemented APIs to generate comprehensive currency history reports for preceding months.Client: Payconz. My Tasks: Multi Currency Convertion. ● Developed a Flask-based currency conversion API integrated with PostgreSQL, facilitating real-time multi-currency payroll processing. ● Implemented APIs to generate comprehensive currency history reports for preceding months.
+- Implemented APIs to generate comprehensive currency history reports for preceding months.Client: Payconz. My Tasks: Multi Currency Convertion. 
 
-Used Tools: Flask · PostgreSQL
+**Used Tools:** Flask · PostgreSQL
 
 
 
@@ -70,11 +70,11 @@ the characters and converted them to text using the reader API. Now I am trying 
 
 Links for [Demo](https://drive.google.com/drive/folders/1EeoPtclp0twt1duJFrJmcXIDBupOfQQb), and [Research Proposal](https://drive.google.com/file/d/1vPYBqmaBPkGLEg7CnZXg3XGX449cw2cw/view)  
 
-Used Tools: TensorFlow · PyTorch · EasyOCR
+**Used Tools:** TensorFlow · PyTorch · EasyOCR
 
 ## Project: Mortgage Management System. 
-Client: Kramasoft.
-My Tasks: Automatic Document Validation.
+**Client:** Kramasoft.
+**My Tasks:** Automatic Document Validation.
 
 - Implemented classifiers to identify document types, enhancing the system’s ability to handle diverse document formats.
 - Engineered a specialized document trimmer employing advanced classifiers to intelligently remove irrelevant pages from documents.
@@ -85,20 +85,21 @@ My Tasks: Automatic Document Validation.
 Link of [Website](https://kramasoft.com/landing)  
 
 ## Project: Government-Citizen Interaction Portal. 
-Client: Janatar Sarkar 
-My Tasks: Managing Citizen Portal, Role Management and Security.
+**Client:** Janatar Sarkar 
+**My Tasks:** Managing Citizen Portal, Role Management and Security.
 
 - Crafted RESTful APIs for the citizen portal using Node.js and MongoDB.
 - Architected a robust Role Management System using JWT authentication, Node.js, and MongoDB, ensuring secure and tailored access control.
 
 Link of [Website](https://janatarsarkar.gov.bd/)  
 
-## Project: Payroll and Tax Management System. 
-Client: Payconz. 
-My Tasks: Multi Currency Convertion.
 
-- Developed a Flask-based currency conversion API integrated with PostgreSQL, facilitating real-time multi-currency payroll processing.
-- Implemented APIs to generate comprehensive currency history reports for preceding months.
+## Project:  Bridging the Digital Divide: A Study of HVECs in Southeast Bandarban.  
+**My Tasks:** Data Collection and Data Analysis
+
+In the high mountains of southeast Bandarban, highly vulnerable ethnic communities (HVECs) live without basic mobile and network availability. To address the digital divide among HVECs, we conducted a mixed-method study involving two visits to six different ethnic communities across 15 villages. Trekking for nine days to collect data, we engaged 72 participants in quantitative and qualitative research, using statistical and machine learning methods. Our findings revealed that 34.2% of participants had never used the Internet, and only 13.7% used it once a week. We explored their Internet skills, outcomes, and reasons for limited use, providing insights to narrow the physical access divide and inform future HCI4D design. This study contributes to understanding the digital divide and technology design for distant indigenous communities, broadening the scope of the HCI4D/ICT4D community.
+
+**Used Tools:** Quantitative Research · Qualitative Research · IBM SPSS
 
 
 
