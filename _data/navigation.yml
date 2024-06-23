@@ -3,8 +3,13 @@ main:
   - title: "CV"
     url: files/resume.pdf
 
+- title: "Projects"
+    url: /project/
+
   - title: "Hobbies"
     url: /workex/
+
+  
 
   - title: "Publications"
     url: /pub/
