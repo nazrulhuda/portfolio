@@ -22,7 +22,7 @@ redirect_from:
 
 Feel free to explore more of my work and projects at my portfolio and CV. Please don't hesitate to connect if you see potential for collaboration or simply wish to network. 
 
-*If you are viewing the homepage from a mobile phone, please click the menue on the top-right corner to find other navigations. Furthermore, you can find contact information by clicking follow button.*
+*If you are viewing the homepage from a mobile phone, please click the menue on the top-right corner to find other navigations. Furthermore, you can find contacting information by clicking follow button.*
 
 # Selected Experience
 
