@@ -12,7 +12,7 @@ title                    : "Nazrul's Homepage"
 title_separator          : "-"
 name                     : &name "Nazrul Huda Shanto"
 description              : &description "personal description"
-url                      : "https://nazrulhuda.github.io/portfolio/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://www.nazrulxh.com"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/academicpages.github.io"
 
