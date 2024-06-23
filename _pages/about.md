@@ -18,6 +18,12 @@ redirect_from:
 
 📚 I also have over two years of experience as an Undergraduate Research Assistant at BRAC University, where I honed my skills in data collection and analysis.
 
+🔍Currently, I am actively seeking Summer 2025 internship opportunities. My interest in research and technology grew under the mentorship of Dr. Jannatun Noor, who taught me to be flexible and adapt to emerging technologies every day. I am excited to bring my background in software engineering, infused with AI expertise and research experience to innovative teams where I can contribute, learn, and grow.
+
+Feel free to explore more of my work and projects at my portfolio and CV. Please don't hesitate to connect if you see potential for collaboration or simply wish to network. 
+
+*If you are viewing the homepage from a mobile phone, please click the menue on the top-right corner to find other navigations. Furthermore, you can find contact information by clicking follow button.*
+
 # Selected Experience
 
 ## Automatic Document Validation with Textract
