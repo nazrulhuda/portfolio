@@ -10,7 +10,7 @@ redirect_from:
 
 
 
-🎓 I'm a Graduate Research Assistant at Oklahoma State University.
+🎓 I'm a Graduate Research Assistant at Oklahoma State University. Recently, I developed scalable microservices with Kubernetes and Istio, created datasets from traffic logs, and trained AI models to automate cybersecurity defenses against attacks, ensuring secure backend integrations.
 
 
 💼 With over 11 months of experience as a Junior Software Engineer at Tirzok Private Ltd., I am specialized in backend development. My work ranged from developing AI solutions and integrating AWS services to building backend systems using clients' preferred frameworks and databases.
