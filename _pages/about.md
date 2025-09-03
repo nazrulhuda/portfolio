@@ -10,7 +10,7 @@ redirect_from:
 
 
 
-🎓 I'm a Masters in Computer Science student (Expected May 2026) and a Graduate Research Assistant at Oklahoma State University. Recently, I am working on a **NASA HOME STRI project** with [Dr. Ramanan](https://ceat.okstate.edu/iem/people/ramanan-faculty-profile.html), where I am developing an AI-agent orchestration framework with LangChain, MCP, and Gustavo for IoT, including privacy-preserving verification using zero-knowledge proofs. Previously, I built a dataset of 1.2M+ Istio/Envoy logs and trained ML models (92% accuracy) to detect DDoS attacks, engineering a self-protective service mesh that reroutes traffic away from compromised services with [Dr. Jahan]([https://experts.okstate.edu/sharmin.jahan).
+🎓 I'm a Graduate Research Assistant at Oklahoma State University. Recently, I am working on a **NASA HOME STRI project** with [Dr. Ramanan](https://ceat.okstate.edu/iem/people/ramanan-faculty-profile.html), where I am developing an AI-agent orchestration framework with LangChain, MCP, and Gustavo for IoT, including privacy-preserving verification using zero-knowledge proofs. Previously, I built a dataset of 1.2M+ Istio/Envoy logs and trained ML models (92% accuracy) to detect DDoS attacks, engineering a self-protective service mesh that reroutes traffic away from compromised services with [Dr. Jahan]([https://experts.okstate.edu/sharmin.jahan).
 
 
 💼 With over 11 months of experience as a Junior Software Engineer at Tirzok Private Ltd., I am specialized in backend development. My work ranged from developing AI solutions and integrating AWS services to building backend systems using clients' preferred frameworks and databases.
