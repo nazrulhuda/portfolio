@@ -30,8 +30,7 @@ Feel free to explore more of my work and projects at my portfolio and CV. Please
 
 For a US-based borrowing company [Kramasoft](https://kramasoft.com/landing), I implemented automatic validation for borrower documents by developing machine learning classifiers to identify document types, enhancing the system’s verification process. I engineered a specialized document trimmer that uses advanced ML classifiers to intelligently remove irrelevant pages, sending only important pages to AWS Textract for precise data extraction. I developed robust extraction processes to retrieve crucial field values accurately and built RESTful APIs using Spring Boot and PostgreSQL to facilitate auto-validation processes. Additionally, I integrated AmazonMQ (RabbitMQ) for seamless internal communication and deployed the system in AWS Lambda using ECR. 
 
-## AI Self-Adaptive Security as A Service
-[github](https://github.com/nazrulhuda/AI-Driven-Anamoly-Detector-as-a-service)
+## AI Self-Adaptive Security as A Service [github link](https://github.com/nazrulhuda/AI-Driven-Anamoly-Detector-as-a-service)
 I built an AI-driven self-protective service mesh that combines anomaly detection with automated defense for microservices. To support this, I collected and engineered a dataset of over 1.2M Istio/Envoy traffic logs and trained ML models with Scikit-Learn, achieving 92% DDoS detection accuracy with LIME explainability. When attacks were detected, the system automatically removed affected services and rerouted traffic to healthy alternatives, creating a self-healing, resilient cloud-native environment powered by Kubernetes, Istio, and Docker.
 
 ## LangChain + MCP Chatbot Framework 
