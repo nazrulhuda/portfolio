@@ -10,7 +10,7 @@ redirect_from:
 
 
 
-🎓 I'm a Graduate Research Assistant under [Dr. Paritosh Ramanan](https://ceat.okstate.edu/iem/people/ramanan-faculty-profile.html) at Oklahoma State University. I am working on a **NASA HOME STRI** associated project to develop an AI-agent orchestration framework using LangChain, MCP, and Gustavo. Previously, I worked under [Dr. Sharmin Jahan](https://experts.okstate.edu/sharmin.jahan), where I built a dataset from microservices traffic and developed machine learning models for anomaly detection, creating a self-protective service mesh that automatically handles attacks.
+🎓 I'm a Graduate Research Assistant under [Dr. Paritosh Ramanan](https://ceat.okstate.edu/iem/people/ramanan-faculty-profile.html) at Oklahoma State University. I am working on an Agentic Verifiable Computation Framework with MCP, Langchain, Zero Knowledge Proofs, and Gustavo. Previously, I worked under [Dr. Sharmin Jahan](https://experts.okstate.edu/sharmin.jahan), where I built an AI-Driven Anomaly Detector and Mitigator with Kubernetes, Istio, and LIME.
 
 
 💼 With over 11 months of experience as a Junior Software Engineer at Tirzok Private Ltd., I am specialized in backend development. My work ranged from developing AI solutions and integrating AWS services to building backend systems using clients' preferred frameworks and databases.
