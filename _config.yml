@@ -10,7 +10,7 @@
 locale                   : "en-US"
 title                    : "Nazrul's Homepage"
 title_separator          : "-"
-name                     : &name "Nazrul Huda Shanto"
+name                     : &name "Nazrul Huda"
 description              : &description "personal description"
 url                      : "https://www.nazrulhuda.com"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
