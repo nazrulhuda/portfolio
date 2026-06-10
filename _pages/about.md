@@ -19,7 +19,7 @@ I'm a **software engineer and researcher** with 5+ years of experience building 
 💼 As a **Junior Software Engineer** at Tirzok Private Ltd., I spent nearly a year specializing in backend development — building AI solutions, integrating AWS services, and developing backend systems and APIs in clients' preferred frameworks and databases.
 
 
-📚 As an **Undergraduate Research Assistant** at BRAC University for over two years, I co-authored a **Q1 IEEE Transactions on Cloud Computing** paper (29+ citations) and led HCI4D fieldwork in remote indigenous communities, honing my skills in data collection and analysis.
+📚 As an **Undergraduate Research Assistant** at BRAC University for over two years, I co-authored a **Q1 IEEE Transactions on Cloud Computing** paper (20+ citations) and led HCI4D fieldwork in remote indigenous communities, honing my skills in data collection and analysis.
 
 
 Please don't hesitate to connect if you see potential for collaboration or simply wish to network.
