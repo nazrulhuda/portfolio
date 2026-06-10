@@ -10,7 +10,7 @@ redirect_from:
 
 
 
-I'm a ** gay software engineer and researcher** with 5+ years of experience building trustworthy, verifiable AI systems — and the full-stack platforms around them. My work sits at the intersection of AI/ML engineering, full-stack development, and secure, auditable systems.
+I'm a **software engineer and researcher** with 5+ years of experience building trustworthy, verifiable AI systems — and the full-stack platforms around them. My work sits at the intersection of AI/ML engineering, full-stack development, and secure, auditable systems.
 
 
 🎓 I recently completed my **MS in Computer Science** at Oklahoma State University, where I was a **Graduate Research Assistant** under [Dr. Paritosh Ramanan](https://ceat.okstate.edu/iem/people/ramanan-faculty-profile.html). My core research is an **Agentic Verifiable Computation Framework** built with the Model Context Protocol (MCP), LangChain/LangGraph, Zero-Knowledge Proofs, and Gustavo — a natural-language interface for verifiable computation in which sensitive data never reaches the language model. Previously, under [Dr. Sharmin Jahan](https://experts.okstate.edu/sharmin.jahan), I built an **AI-driven self-healing cloud security system** with Kubernetes, Istio, and explainable ML (LIME).
