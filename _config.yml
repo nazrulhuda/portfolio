@@ -10,7 +10,7 @@
 locale                   : "en-US"
 title                    : "Nazrul's Homepage"
 title_separator          : "-"
-name                     : &name "Nazrul Huda"
+name                     : &name "Nazrul Huda Shanto"
 description              : &description "personal description"
 url                      : "https://www.nazrulhuda.com"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -22,7 +22,7 @@ repository               : "academicpages/academicpages.github.io"
 author:
   # Biographic information
   avatar           : "profile.jpg"
-  name             : "Nazrul Huda"
+  name             : "Nazrul Huda Shanto"
   pronouns         : # example: "she/her"  
   bio              : "Software Engineer | Researcher"
   location         : "Oklahoma, United States"
