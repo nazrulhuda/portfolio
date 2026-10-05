@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "👋 Hello there, I'm Nazrul!"
+title: "👋 Hi, I'm Nazrul"
 excerpt: "About me"
 author_profile: true
 redirect_from:
@@ -8,50 +8,75 @@ redirect_from:
   - /about.html
 ---
 
+I build systems that keep automated decisions correct when the model making them is unreliable. My recent research studies **LLM agents that operate zero-knowledge proof systems** and **ML-based defenses for cloud service meshes**. I am interested in trustworthy AI agents, verifiable computation, and the security of cloud and AI systems.
 
+**I am applying to Computer Science PhD programs for Fall 2027.** &nbsp; [CV](/files/Shanto_PhD_CV.pdf) · [Google Scholar](https://scholar.google.com/citations?user=N9aZcZYAAAAJ&hl=en) · [GitHub](https://github.com/nazrulhuda)
 
-I'm a **software engineer and researcher** with 5+ years of experience building trustworthy, verifiable AI systems — and the full-stack platforms around them. My work sits at the intersection of AI/ML engineering, full-stack development, and secure, auditable systems.
+🎓 I completed my **MS in Computer Science at Oklahoma State University** in May 2026. As a Graduate Research Assistant, I worked with [Dr. Paritosh Ramanan](https://ceat.okstate.edu/iem/people/ramanan-faculty-profile.html) on natural-language interfaces to zero-knowledge verification, and with [Dr. Sharmin Jahan](https://experts.okstate.edu/sharmin.jahan) on ML-based DDoS detection for Kubernetes and Istio.
 
+📚 Before that, I was an Undergraduate Research Assistant in the C2SG Lab at BRAC University with [Dr. Jannatun Noor](https://sites.google.com/site/jannatun0abigzero/home). I was corresponding author on an **IEEE Transactions on Cloud Computing** paper and led fieldwork in remote Indigenous communities of Bangladesh.
 
-🎓 I recently completed my **MS in Computer Science** at Oklahoma State University, where I was a **Graduate Research Assistant** under [Dr. Paritosh Ramanan](https://ceat.okstate.edu/iem/people/ramanan-faculty-profile.html). My core research is an **Agentic Verifiable Computation Framework** built with the Model Context Protocol (MCP), LangChain/LangGraph, Zero-Knowledge Proofs, and Gustavo — a natural-language interface for verifiable computation in which sensitive data never reaches the language model. Previously, under [Dr. Sharmin Jahan](https://experts.okstate.edu/sharmin.jahan), I built an **AI-driven self-healing cloud security system** with Kubernetes, Istio, and explainable ML (LIME).
+💼 I also worked for a year as a Junior Software Engineer at Tirzok Private Ltd., building ML document processing and backend systems.
 
+## 📰 News
 
-💼 As a **Junior Software Engineer** at Tirzok Private Ltd., I spent nearly a year specializing in backend development — building AI solutions, integrating AWS services, and developing backend systems and APIs in clients' preferred frameworks and databases.
+<!-- TODO: replace "2026" with the real month for each item. -->
+- **Oct 2026:** My pull request to the [CoSMeTIC](https://github.com/disys-lab/cosmetic) zkSNARK framework was merged: new prover APIs and a fix for a bug that reported every valid KS and LRT proof as failed.
+- **Sep 2026:** First-author paper *Natural-Language Zero-Knowledge Verification via Skeptical MCP Tools* submitted to IEEE BigData 2026. [[Paper]](https://github.com/disys-lab/Skeptical-MCP-For-zkSNARKs/blob/main/manuscript/Natural-Language-ZK-Verification-via-Skeptical-MCP-Tools.pdf) [[Code]](https://github.com/disys-lab/Skeptical-MCP-For-zkSNARKs)
+- **2026:** Our paper on DDoS detection for service meshes is under review at ICOIN 2027.
+- **2026:** Two papers from our fieldwork with Indigenous communities are under review (CHI 2027; *Social Sciences & Humanities Open*).
+- **2026:** Our paper on Indigenous primary education was accepted at ACM COMPASS 2026. [[Paper]](https://dl.acm.org/doi/abs/10.1145/3811242.3819095)
+- **May 2026:** Completed my MS in Computer Science at Oklahoma State University.
+- **Summer 2025:** AI Instructor in OSU's NSF Research Experiences for Teachers (RET) program.
 
+# Selected Research
 
-📚 As an **Undergraduate Research Assistant** at BRAC University for over two years, I co-authored a **Q1 IEEE Transactions on Cloud Computing** paper (20+ citations) and led HCI4D fieldwork in remote indigenous communities, honing my skills in data collection and analysis.
+## Natural-Language Zero-Knowledge Verification via Skeptical MCP Tools
 
+*First author · with Dr. Paritosh Ramanan · Under review, IEEE BigData 2026* · [Paper](https://github.com/disys-lab/Skeptical-MCP-For-zkSNARKs/blob/main/manuscript/Natural-Language-ZK-Verification-via-Skeptical-MCP-Tools.pdf) · [Code](https://github.com/disys-lab/Skeptical-MCP-For-zkSNARKs)
 
-Please don't hesitate to connect if you see potential for collaboration or simply wish to network.
+Zero-knowledge proofs let a clinical study prove that its statistics are correct without revealing patient records, but requesting a proof means writing precise API calls by hand. I built an LLM agent that lets non-experts request, check, download, and verify zero-knowledge proofs in plain language. It runs the [CoSMeTIC](https://github.com/disys-lab/cosmetic) zkSNARK framework through eight custom MCP tools (LangGraph, FastMCP, Flask, Redis, PostgreSQL, Docker).
 
-*If you are viewing the homepage from a mobile phone, please click the menu on the top-right corner to find other navigations. Furthermore, you can find contacting information by clicking the follow button.*
+LLMs often leave out or invent the exact values these tools need, so I designed **skeptical tools**: 20 server-side design decisions that check, complete, or override what the model sends. Across three open-weight model families and more than 6,000 query runs, task completion rose from 70% to **93%** on Qwen 3 32B, with a gain of about 23 points on every model family.
 
-# Selected Experience
+One key finding: a "plausible default" inside a tool silently sent 198 status checks to the wrong prover, and the models then told users their job did not exist. A server-side override removed all 198 errors. We also found that dataset hashes, job IDs, and account IDs reach the model provider in every configuration, even though patient records stay inside the provers. The code, test suite, graders, and all 6,371 result records are public, with a script that recomputes every number in the paper.
 
-## Agentic Verifiable Computation Framework (ZKP + MCP)
+## ML-Based DDoS Detection and Automatic Mitigation for Service Meshes
 
-My core research is an agentic framework that lets users verify Zero-Knowledge Proofs through natural-language conversation. I built a Dockerized 4-service system — a Flask + LangGraph/LangChain backend, a FastMCP prover server, Redis for session state, and PostgreSQL — with **eight custom MCP tools** and a security-critical interceptor that enforces per-request user isolation and prevents LLM-based user impersonation, so sensitive data stays in the database and never reaches the language model. I introduced a "skeptical tools" design pattern (22 design decisions across four categories) and validated it through a 4-configuration ablation across 6,000+ API calls, improving task completion from 70% to 93% with 99% response faithfulness. To the best of my knowledge, this is the first natural-language interface for zero-knowledge verifiable computation. *(First-author manuscript in preparation.)*
+*Second author · with Dr. Sharmin Jahan · Under review, ICOIN 2027* · [Paper](https://drive.google.com/file/d/1KdqIUXU8p5YX9Xib-yazjfmLLQQOJWKe/view?usp=sharing) · [Prototype code](https://github.com/nazrulhuda/AI-Driven-Anomaly-Detector-and-mitigation-as-a-service)
 
-## AI Self-Adaptive Security as a Service [github link](https://github.com/nazrulhuda/AI-Driven-Anamoly-Detector-as-a-service)
+I designed and built a DDoS detection and response system for Kubernetes and Istio that needs no changes to application code. It reads telemetry from each Envoy sidecar and uses a separate ML classifier for each service (94.0–97.8% accuracy). When it detects an attack, it patches Istio routing to move traffic to backup versions, then restores the original routing after a cooldown. Running the per-service models in parallel made each detection cycle 2.27× faster than one central model. My earlier prototype analyzed more than 1.2M Envoy log entries and explained each detection with LIME.
 
-I built an AI-driven self-protective service mesh that combines anomaly detection with automated defense for microservices. To support this, I collected and engineered a dataset of over **1.2M Istio/Envoy traffic logs** and trained ML models with Scikit-Learn, achieving **94% DDoS detection accuracy** with LIME explainability. When attacks were detected, the system automatically removed affected services and rerouted traffic to healthy alternatives, creating a self-healing, resilient cloud-native environment powered by Kubernetes, Istio, and Docker. *(Submitted to IEEE ACSOS 2026 — under review.)*
+## The Digital Divide among Little-Known Indigenous Communities in Bangladesh
 
-## FwdStar — Freight Marketplace Platform (Sole Architect)
+*Second author · with Dr. Jannatun Noor · Under review: CHI 2027* [[Paper]](https://drive.google.com/file/d/1CM6S0IEtVTGResn1ibBI_WT42TLttXBT/view?usp=sharing) *and Social Sciences & Humanities Open* [[Paper]](https://drive.google.com/file/d/1Db3PFK6loLyPHUt5R_66nLD8bsfMnogv/view?usp=sharing)
 
-I designed and built a production-grade, multi-sided freight marketplace end-to-end — connecting shippers, brokers, and carriers. A three-tier system with **Next.js 16** (App Router), a **FastAPI** domain engine, and **Supabase (PostgreSQL + PostGIS)**, comprising **20 relational tables and 50+ REST API endpoints**. I turned a client's verbal business needs into a **2,695-line technical specification** through repeated stakeholder sessions, then built the platform iteratively against their feedback. The engineering depth is in marketplace integrity and security: load and shipment **state machines with optimistic locking** and transactional award integrity (SELECT FOR UPDATE), plus dual-algorithm **JWT verification (HS256/ES256/RS256 via JWKS)**, HTTP-only cookie sessions, CSRF protection, OTP verification, login lockout, and database-level uniqueness on phone identifiers.
+![Fieldwork in the hills of Bandarban, Bangladesh](images/o.jpg){: .align-right width="300px"}
+
+Some Indigenous communities in the mountains of southeast Bandarban live without stable mobile networks, electricity, or roads. Over two field visits, we trekked for days to reach 15 villages of six ethnic communities and talked with people about how they reach phones, signals, and the outside world. More than half of the participants lived without mobile network coverage, and many climbed to mountain peaks just to make a call. Our papers describe this "physical access" layer of the digital divide and give practical guidance for respectful fieldwork in such places.
+
+Related work: a study of barriers to primary education in Indigenous communities, where we helped create learning content in three Indigenous languages ([ACM COMPASS 2026](https://dl.acm.org/doi/abs/10.1145/3811242.3819095)).
+
+# Engineering Projects
+
+## FwdStar — Freight Marketplace Platform
+
+I designed and built a multi-sided freight marketplace that connects shippers, brokers, and carriers: a three-tier system with **Next.js 16**, a **FastAPI** domain engine, and **Supabase (PostgreSQL + PostGIS)**, with 20 relational tables and 50+ REST API endpoints. I turned the client's verbal business needs into a 2,695-line technical specification and built the platform iteratively against their feedback. The core engineering is integrity and security: shipment state machines with optimistic locking, transactional award integrity (SELECT FOR UPDATE), JWT verification (HS256/ES256/RS256 via JWKS), HTTP-only cookie sessions, CSRF protection, OTP verification, and login lockout.
 
 ## LangChain + MCP Chatbot Framework
 
-I built a chatbot framework with a Bootstrap frontend and Flask backend that connects to LangChain's ReAct agent for multi-service orchestration. The system integrates MCP tool servers (e.g., a weather API and math operations) and leverages Groq![Illustration of combining vision and language modalities](images/ii.jpeg){: .align-left width="1200px"} for fast LLM inference, allowing the chatbot to dynamically select and combine services in real time. This project demonstrates how LLMs can act as intelligent orchestrators, coordinating multiple APIs and tools within a seamless conversational interface.
+![LangChain and MCP chatbot framework](images/ii.jpeg){: .align-right width="300px"}
 
-## Automatic Document Validation with Textract
+A chatbot with a Bootstrap frontend and Flask backend that uses LangChain's ReAct agent to choose and combine MCP tool servers (for example, a weather API and math tools), with Groq for fast LLM inference.
 
-For a US-based borrowing company [Kramasoft](https://kramasoft.com/landing), I implemented automatic validation for borrower documents by developing machine learning classifiers to identify document types, enhancing the system's verification process. I engineered a specialized document trimmer that uses advanced ML classifiers to intelligently remove irrelevant pages, sending only important pages to AWS Textract for precise data extraction. I developed robust extraction processes to retrieve crucial field values accurately and built RESTful APIs using Spring Boot and PostgreSQL to facilitate auto-validation processes. Additionally, I integrated AmazonMQ (RabbitMQ) for seamless internal communication and deployed the system in AWS Lambda using ECR.
+## Automatic Document Validation (Tirzok, client: [Kramasoft](https://kramasoft.com/landing))
 
-## Bridging the Digital Divide: A Study of HVECs in Southeast Bandarban
+ML classifiers that sort borrower documents and remove irrelevant pages before sending the rest to AWS Textract for field extraction, running 45× faster than manual validation (Spring Boot, PostgreSQL, Amazon MQ, AWS Lambda, ECR).
 
-In the high mountains of southeast Bandarban, highly vulnerable ethnic communities (HVECs) live without basic mobile and network availability. To address the digital divide among HVECs, we conducted a mixed-method study involving two visits ![Illustration of combining vision and language modalities](images/o.jpg){: .align-left width="300px"} to six different ethnic communities across 15 villages. Trekking for nine days to collect data, we engaged 72 participants in quantitative and qualitative research, using statistical and machine learning methods. Our findings revealed that 34.2% of participants had never used the Internet, and only 13.7% used it once a week. We explored their Internet skills, outcomes, and reasons for limited use, providing insights to narrow the physical access divide and inform future HCI4D design. This study contributes to understanding the digital divide and technology design for distant indigenous communities, broadening the scope of the HCI4D/ICT4D community.
+## Backend of [Janatar Sarkar](https://janatarsarkar.gov.bd/)
 
-## Developing the Backend of Janatar Sarkar
+RESTful APIs (Node.js, MongoDB) and a JWT-based role management system for a Bangladeshi government–citizen service portal serving 80,000+ citizens.
 
-I developed RESTful APIs for the backend of the [Janatar Sarkar](https://janatarsarkar.gov.bd/) government-public interaction website using Node.js and MongoDB. I also implemented a comprehensive Role Management System utilizing JWT authentication, Node.js, and MongoDB. This system ensures secure access control tailored to various types of administrators within janatarsarkar, allowing precise assignment of roles and responsibilities.
+# Teaching
+
+**AI Instructor, NSF Research Experiences for Teachers (RET), Oklahoma State University (2025).** Taught 10 K–12 teachers Python, machine learning, and Transformers through hands-on tutorials, guided their research projects, and designed a Python-to-LLM curriculum used in their classrooms.
