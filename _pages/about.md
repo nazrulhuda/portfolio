@@ -8,9 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-I recently completed my **MS in Computer Science at Oklahoma State University** (May 2026), where I spent more than two years as a Graduate Research Assistant. My main research, with [Dr. Paritosh Ramanan](https://ceat.okstate.edu/iem/people/ramanan-faculty-profile.html), is on making LLM agents reliable when they operate zero-knowledge proof systems; I am still working with him on it, and my first-author paper is under review at IEEE BigData 2026. I also worked with [Dr. Sharmin Jahan](https://experts.okstate.edu/sharmin.jahan), building an ML system that detects DDoS attacks on cloud services and responds to them automatically.
+I finished my **MS in Computer Science at Oklahoma State University** in May 2026, after more than two years as a Graduate Research Assistant. In Dr. [Paritosh Ramanan](https://ceat.okstate.edu/iem/people/ramanan-faculty-profile.html)'s [Distributed Intelligent Systems Lab](https://disys-lab.github.io/), I built an LLM agent that lets people use zero-knowledge proof systems in plain language, a project I am still working on. With [Dr. Sharmin Jahan](https://experts.okstate.edu/sharmin.jahan), I built an ML system that detects DDoS attacks on cloud services and responds to them automatically.
 
-Before my master's, I spent more than two years as an undergraduate research assistant with [Dr. Jannatun Noor](https://sites.google.com/site/jannatun0abigzero/home) at BRAC University, publishing in *IEEE Transactions on Cloud Computing* as corresponding author and leading fieldwork in remote Indigenous communities of Bangladesh. I also worked for a year as a software engineer, building an ML document-validation system for a US mortgage-software company and the backend of a national government portal.
+Before my master's, I spent more than two years as an undergraduate research assistant with [Dr. Jannatun Noor](https://sites.google.com/site/jannatun0abigzero/home) at BRAC University, working on faster image retrieval for cloud systems and leading fieldwork in remote Indigenous communities of Bangladesh. I also worked for a year as a software engineer, building an ML document-validation system for a US mortgage-software company and the backend of a national government portal.
 
 **I am applying to Computer Science PhD programs for Fall 2027.**
 [CV](/files/Shanto_PhD_CV.pdf) · [Publications](/publications/) · [Projects](/project/) · [Google Scholar](https://scholar.google.com/citations?user=N9aZcZYAAAAJ&hl=en) · [GitHub](https://github.com/nazrulhuda)
@@ -30,7 +30,8 @@ Before my master's, I spent more than two years as an undergraduate research ass
 
 *First author · with Dr. Paritosh Ramanan · under review, IEEE BigData 2026* · [**Paper**](https://github.com/disys-lab/Skeptical-MCP-For-zkSNARKs/blob/main/manuscript/Natural-Language-ZK-Verification-via-Skeptical-MCP-Tools.pdf) · [**Code & data**](https://github.com/disys-lab/Skeptical-MCP-For-zkSNARKs)
 
-[How the skeptical MCP agent works](images/skeptical_architecture.png){: .align-center width="600px"}
+<!-- Recommended: add the system figure from the paper (Fig. 1). Save it as images/skeptical_architecture.png, then remove the comment marks around the next line.
+![How the skeptical MCP agent works](images/skeptical_architecture.png){: .align-center width="600px"} -->
 
 Zero-knowledge proofs let a clinical study prove that its statistics are correct without showing any patient records, but requesting a proof means writing exact API calls, which shuts out the participants and auditors these systems are meant to serve. I built an LLM agent that lets people request, check, download, and verify proofs in plain language, using eight custom MCP tools on top of the CoSMeTIC zkSNARK framework. Because LLMs often leave out or invent the exact values these tools need, I designed *skeptical tools*: 20 server-side checks that complete or override what the model sends.
 
