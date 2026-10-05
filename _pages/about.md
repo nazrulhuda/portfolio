@@ -76,12 +76,11 @@ We customized progressive JPEG so images load faster and take less space in low-
 **DDoS mitigation with a resource-sharing network** · *Co-author and oral presenter · NSysS 2022* · [[Paper]](https://dl.acm.org/doi/10.1145/3569551.3569560)
 A network that tracks attacker IP addresses and drops their requests through a proxy, which mitigated 66.7% of attacks in a simulation with 50 Nginx virtual machines.
 
-# Industry
+# Industry & Engineering
 
 - **ML document validation for [Kramasoft](https://kramasoft.com/landing)**, a US mortgage-software company: classifiers that sort borrower documents and remove irrelevant pages before AWS Textract, running **45× faster than manual validation**.
 - **Backend of [Janatar Sarkar](https://janatarsarkar.gov.bd/)**, a Bangladesh government portal serving **80,000+ citizens**: RESTful APIs and a JWT-based role management system.
-
-More engineering work, including FwdStar, a freight marketplace platform, is on my [Projects](/project/) page.
+- **[FwdStar](/project/)**, a freight marketplace platform for Bangladesh (technical lead and sole architect, 2026–present): a Next.js and FastAPI system with 50+ REST endpoints, PostGIS, and layered security, built from a 2,695-line specification I wrote from the client's needs.
 
 # Teaching and Beyond
 
