@@ -8,9 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-I recently completed my **MS in Computer Science at Oklahoma State University** (May 2026), where I spent more than two years as a Graduate Research Assistant. My main research, with [Dr. Paritosh Ramanan](https://ceat.okstate.edu/iem/people/ramanan-faculty-profile.html), is on making LLM agents reliable when they operate zero-knowledge proof systems. I am still working with him on this project, and my first-author paper from it is under review at IEEE BigData 2026.
+I recently completed my **MS in Computer Science at Oklahoma State University** (May 2026), where I spent more than two years as a Graduate Research Assistant. My main research, with [Dr. Paritosh Ramanan](https://ceat.okstate.edu/iem/people/ramanan-faculty-profile.html), is on making LLM agents reliable when they operate zero-knowledge proof systems; I am still working with him on it, and my first-author paper is under review at IEEE BigData 2026. I also worked with [Dr. Sharmin Jahan](https://experts.okstate.edu/sharmin.jahan), building an ML system that detects DDoS attacks on cloud services and responds to them automatically.
 
-I also worked with [Dr. Sharmin Jahan](https://experts.okstate.edu/sharmin.jahan), building an ML system that detects DDoS attacks on cloud services and responds to them automatically. Before my master's, I spent more than two years as an undergraduate research assistant with [Dr. Jannatun Noor](https://sites.google.com/site/jannatun0abigzero/home) at BRAC University, publishing in *IEEE Transactions on Cloud Computing* as corresponding author and leading fieldwork in remote Indigenous communities of Bangladesh. I also worked for a year as a software engineer, building an ML document-validation system for a US mortgage-software company and the backend of a national government portal.
+Before my master's, I spent more than two years as an undergraduate research assistant with [Dr. Jannatun Noor](https://sites.google.com/site/jannatun0abigzero/home) at BRAC University, publishing in *IEEE Transactions on Cloud Computing* as corresponding author and leading fieldwork in remote Indigenous communities of Bangladesh. I also worked for a year as a software engineer, building an ML document-validation system for a US mortgage-software company and the backend of a national government portal.
 
 **I am applying to Computer Science PhD programs for Fall 2027.**
 [CV](/files/Shanto_PhD_CV.pdf) · [Publications](/publications/) · [Projects](/project/) · [Google Scholar](https://scholar.google.com/citations?user=N9aZcZYAAAAJ&hl=en) · [GitHub](https://github.com/nazrulhuda)
@@ -18,7 +18,7 @@ I also worked with [Dr. Sharmin Jahan](https://experts.okstate.edu/sharmin.jahan
 ## News
 
 - **Oct 2026:** My pull request to the [CoSMeTIC](https://github.com/disys-lab/cosmetic) zkSNARK framework was merged, including a fix for a bug that reported every valid KS and LRT proof as failed.
-- **Sep 2026:** Submitted my first-author paper on skeptical MCP tools to IEEE BigData 2026 and released its code and data.
+- **Sep 2026:** Released the code, test suite, and all 6,371 result records from my skeptical-tools paper. [[Code & data]](https://github.com/disys-lab/Skeptical-MCP-For-zkSNARKs)
 - **Fall 2026:** Three more papers under review, at ICOIN 2027, ACM CHI 2027, and *Social Sciences & Humanities Open*.
 - **Jul 2026:** Our paper on Indigenous primary education was accepted at ACM COMPASS 2026. [[Paper]](https://dl.acm.org/doi/abs/10.1145/3811242.3819095)
 - **May 2026:** Completed my MS in Computer Science at Oklahoma State University.
@@ -30,20 +30,14 @@ I also worked with [Dr. Sharmin Jahan](https://experts.okstate.edu/sharmin.jahan
 
 *First author · with Dr. Paritosh Ramanan · under review, IEEE BigData 2026* · [**Paper**](https://github.com/disys-lab/Skeptical-MCP-For-zkSNARKs/blob/main/manuscript/Natural-Language-ZK-Verification-via-Skeptical-MCP-Tools.pdf) · [**Code & data**](https://github.com/disys-lab/Skeptical-MCP-For-zkSNARKs)
 
-<!-- Recommended: add the system figure from the paper (Fig. 1). Save it as images/skeptical_architecture.png, then remove the comment marks around the next line.
-![How the skeptical MCP agent works](images/skeptical_architecture.png){: .align-center width="600px"} -->
+[How the skeptical MCP agent works](images/skeptical_architecture.png){: .align-center width="600px"}
 
-**The problem.** Zero-knowledge proofs let a clinical study prove that its statistics are correct without showing any patient records. But asking for a proof means writing exact API calls with hashes, proof types, and job IDs, which is hard for the participants and auditors these systems are meant to serve.
+Zero-knowledge proofs let a clinical study prove that its statistics are correct without showing any patient records, but requesting a proof means writing exact API calls, which shuts out the participants and auditors these systems are meant to serve. I built an LLM agent that lets people request, check, download, and verify proofs in plain language, using eight custom MCP tools on top of the CoSMeTIC zkSNARK framework. Because LLMs often leave out or invent the exact values these tools need, I designed *skeptical tools*: 20 server-side checks that complete or override what the model sends.
 
-**What I built.** An LLM agent that lets people request, check, download, and verify proofs in plain language, such as *"Prove my data is in the KS test."* It runs the CoSMeTIC zkSNARK framework through eight custom MCP tools. Because LLMs often leave out or invent the exact values these tools need, I designed **skeptical tools**: 20 server-side design decisions that check, complete, or override what the model sends.
-
-**What we found.**
 - Task completion rose from **70% to 93%** on Qwen 3 32B, with a gain of about 23 points on all three model families we tested (6,000+ query runs).
 - A "plausible default" inside one tool silently sent **198 status checks to the wrong prover**, and the models then told users their job did not exist. A server-side override removed all 198 errors.
-- The only made-up answers in the study appeared when the conversation history contained an earlier success to copy, which supports designing tools that do not depend on chat history.
-- Dataset hashes, job IDs, and account IDs reach the model provider in every configuration, even though patient records stay inside the provers.
-
-**Open and reproducible.** The code, test suite, graders, and all 6,371 result records are public, with a script that recomputes every number in the paper. I also contributed a merged pull request to [CoSMeTIC](https://github.com/disys-lab/cosmetic), including the fix for its verification bug.
+- Made-up answers appeared only when the chat history contained an earlier success to copy.
+- The code, test suite, and all 6,371 result records are public, and I contributed a merged fix to CoSMeTIC itself.
 
 ## Automatic DDoS Defense for Cloud Service Meshes
 
@@ -52,14 +46,10 @@ I also worked with [Dr. Sharmin Jahan](https://experts.okstate.edu/sharmin.jahan
 <!-- Recommended: add the dataflow figure from the paper (Fig. 2). Save it as images/ddos_dataflow.png, then remove the comment marks around the next line.
 ![How the DDoS detection and rerouting framework works](images/ddos_dataflow.png){: .align-center width="600px"} -->
 
-**The problem.** Modern apps on Kubernetes are made of many small services, and a flood of requests to one of them can bring the whole app down. Service meshes such as Istio can control traffic, but only through fixed rules that people set by hand.
+Modern apps on Kubernetes are made of many small services, and a flood of requests to one of them can bring the whole app down, yet service meshes like Istio only offer fixed rules that people set by hand. I built a framework that runs as a single monitoring pod and needs no changes to application code. It reads traffic data from each service's Envoy sidecar, detects attacks with a separate ML model for each service, and patches Istio routing to move traffic to backup versions, then restores normal routing when the attack stops.
 
-**What I built.** A framework that runs as a single monitoring pod and needs no changes to application code. It reads traffic data from each service's Envoy sidecar, detects attacks with a separate ML model for each service, and patches Istio routing to move traffic to backup versions. When the attack stops, it restores normal routing on its own.
-
-**Results.**
-- Per-service classifiers (Random Forest, Gradient Boosting, SVM, Decision Tree) reached **94.0–97.8% accuracy** on 4,705 labeled traffic windows.
+- Per-service models (Random Forest, Gradient Boosting, SVM, Decision Tree) reached **94.0–97.8% accuracy** on 4,705 labeled traffic windows.
 - Running the models in parallel made each detection cycle **2.27× faster** than one central model across 12 pods.
-- An Isolation Forest fallback covers new services that do not have a trained model yet.
 - My earlier prototype analyzed more than 1.2M Envoy log entries and explained each detection with LIME.
 
 # Other Research
