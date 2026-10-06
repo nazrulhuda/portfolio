@@ -30,7 +30,7 @@ Before my master's, I spent more than two years as an Undergraduate Research Ass
 
 *First author · with Dr. Paritosh Ramanan · under review, IEEE BigData 2026* · [**Paper**](https://github.com/disys-lab/Skeptical-MCP-For-zkSNARKs/blob/main/manuscript/Natural-Language-ZK-Verification-via-Skeptical-MCP-Tools.pdf) · [**Code & data**](https://github.com/disys-lab/Skeptical-MCP-For-zkSNARKs)
 
-[![The Prover Assistant: a user asks whether their data was used in any study, then starts a KS proof](/images/skeptical_chat.png){: width="100%"}](/images/skeptical_chat.png)
+[![The Prover Assistant: a user asks whether their data was used in any study, then starts a KS proof](/images/skeptical_chat.png){: .wide-shot}](/images/skeptical_chat.png)
 
 Zero-knowledge proofs let a clinical study prove that its statistics are correct without showing any patient records, but requesting a proof means writing exact API calls, which shuts out the participants and auditors these systems are meant to serve. I built an LLM agent that lets people request, check, download, and verify proofs in plain language (see the screenshot), using eight custom MCP tools on top of the CoSMeTIC zkSNARK framework. Every reply carries a trust label that the server sets, not the model. Because LLMs often leave out or invent the exact values these tools need, I designed *skeptical tools*: 20 server-side checks that complete or override what the model sends.
 
@@ -42,7 +42,7 @@ Zero-knowledge proofs let a clinical study prove that its statistics are correct
 
 <div style="clear: both;"></div>
 
-[![System architecture of the skeptical MCP agent](/images/skeptical_architecture.png){: width="100%"}](/images/skeptical_architecture.png)
+[![System architecture of the skeptical MCP agent](/images/skeptical_architecture.png){: .wide-shot}](/images/skeptical_architecture.png)
 *How it works: every tool call from the LLM agent passes through an interceptor that replaces any identity the model invents, and the MCP server checks the request against stored state before calling the CoSMeTIC provers. Labels such as A3 and B2–B7 refer to design decisions in the paper, for example A3 (server-side identity) and B4–B6 (finding the right job, proof type, and prover from stored state).*
 
 ## Automatic DDoS Defense for Cloud Service Meshes

@@ -1,5 +1,6 @@
 ---
-permalink: /
+permalink: /project/
+published: false
 title: "Hi, I'm Nazrul 👋"
 excerpt: "About me"
 author_profile: true
