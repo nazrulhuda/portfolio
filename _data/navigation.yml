@@ -1,25 +1,13 @@
-# main links links
+# main links
 main:
   - title: "CV"
     url: /files/resume.pdf
 
+  - title: "Publications"
+    url: /publications/
+
   - title: "Projects"
-    url: /project/
+    url: /projects/
 
   - title: "Hobbies"
     url: /hobbies/
-
-  - title: "Publications"
-    url: /pub/
-
-  - title: "My Personal Blog Website"
-    url: https://nazrulxh.onrender.com/
-
-  
-     
-  
-    
- 
-    
-  #- title: "Guide"
- #   url: /markdown/
