@@ -39,3 +39,20 @@
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
+/* ===== Add these lines at the END of assets/css/main.scss ===== */
+
+/* Screenshot beside the text on computers, full width on phones */
+.side-shot {
+  display: block;
+  width: 100%;
+  margin: 0 auto 1em;
+  border-radius: 6px;
+}
+@media (min-width: 768px) {
+  .side-shot {
+    float: right;
+    width: 45%;
+    max-width: 380px;
+    margin: 0.3em 0 1em 1.5em;
+  }
+}
