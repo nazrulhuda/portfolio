@@ -49,15 +49,16 @@ Zero-knowledge proofs let a clinical study prove that its statistics are correct
 
 *Second author · with Dr. Sharmin Jahan · under review, ICOIN 2027* · [**Paper**](https://drive.google.com/file/d/1KdqIUXU8p5YX9Xib-yazjfmLLQQOJWKe/view?usp=sharing) · [**Prototype code**](https://github.com/nazrulhuda/AI-Driven-Anomaly-Detector-and-mitigation-as-a-service)
 
-<!-- Recommended: add the dataflow figure from the paper (Fig. 2). Save it as images/ddos_dataflow.png, then remove the comment marks around the next line.
-![How the DDoS detection and rerouting framework works](images/ddos_dataflow.png){: .align-center width="600px"} -->
-
 Modern apps on Kubernetes are made of many small services, and a flood of requests to one of them can bring the whole app down, yet service meshes like Istio only offer fixed rules that people set by hand. I built a framework that runs as a single monitoring pod and needs no changes to application code. It reads traffic data from each service's Envoy sidecar, detects attacks with a separate ML model for each service, and patches Istio routing to move traffic to backup versions, then restores normal routing when the attack stops.
+
+[![How the DDoS detection and rerouting framework works: metrics collection, per-service ML detection, and Istio traffic rerouting](/images/ddos_architecture.jpg){: .side-shot}](/images/ddos_architecture.jpg)
 
 - Per-service models (Random Forest, Gradient Boosting, SVM, Decision Tree) reached **94.0–97.8% accuracy** on 4,705 labeled traffic windows.
 - Running the models in parallel made each detection cycle **2.27× faster** than one central model across 12 pods.
 - An Isolation Forest fallback protects new services that do not have a trained model yet.
 - My earlier prototype analyzed more than 1.2M Envoy log entries and explained each detection with LIME.
+
+<div style="clear: both;"></div>
 
 ## Faster Image Retrieval over the Cloud
 
