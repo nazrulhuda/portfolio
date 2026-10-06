@@ -31,27 +31,30 @@ Before my master's, I spent more than two years as an Undergraduate Research Ass
 *First author · with Dr. Paritosh Ramanan · under review, IEEE BigData 2026* · [**Paper**](https://github.com/disys-lab/Skeptical-MCP-For-zkSNARKs/blob/main/manuscript/Natural-Language-ZK-Verification-via-Skeptical-MCP-Tools.pdf) · [**Code & data**](https://github.com/disys-lab/Skeptical-MCP-For-zkSNARKs)
 
 
-[How the skeptical MCP agent works](images/skeptical_architecture.png){: .align-center width="400px"} -->
-
+![How the skeptical MCP agent works](images/skeptical_architecture.png){: .align-center width="600px"} -->
 Zero-knowledge proofs let a clinical study prove that its statistics are correct without showing any patient records, but requesting a proof means writing exact API calls, which shuts out the participants and auditors these systems are meant to serve. I built an LLM agent that lets people request, check, download, and verify proofs in plain language, using eight custom MCP tools on top of the CoSMeTIC zkSNARK framework. Because LLMs often leave out or invent the exact values these tools need, I designed *skeptical tools*: 20 server-side checks that complete or override what the model sends.
-
 - Task completion rose from **70% to 93%** on Qwen 3 32B, with a gain of about 23 points on all three model families we tested (6,000+ query runs).
 - A "plausible default" inside one tool silently sent **198 status checks to the wrong prover**, and the models then told users their job did not exist. A server-side override removed all 198 errors.
 - Made-up answers appeared only when the chat history contained an earlier success to copy.
-- The code, test suite, and all 6,371 result records are public, and I contributed a merged fix to CoSMeTIC itself.
+- Without server-side identity checks, models invented user IDs (such as `user123`) that could tie a proof to the wrong person's data. We also showed that dataset hashes and account IDs reach the model provider in every setup, even though patient records stay private.
+- Our first evaluation grader wrongly marked honest error recovery as fabrication, so I built a corrected one. The code, test suite, graders, and all 6,371 result records are public, and I contributed a merged fix to CoSMeTIC itself.
 
 ## Automatic DDoS Defense for Cloud Service Meshes
-
 *Second author · with Dr. Sharmin Jahan · under review, ICOIN 2027* · [**Paper**](https://drive.google.com/file/d/1KdqIUXU8p5YX9Xib-yazjfmLLQQOJWKe/view?usp=sharing) · [**Prototype code**](https://github.com/nazrulhuda/AI-Driven-Anomaly-Detector-and-mitigation-as-a-service)
-
 <!-- Recommended: add the dataflow figure from the paper (Fig. 2). Save it as images/ddos_dataflow.png, then remove the comment marks around the next line.
 ![How the DDoS detection and rerouting framework works](images/ddos_dataflow.png){: .align-center width="600px"} -->
-
 Modern apps on Kubernetes are made of many small services, and a flood of requests to one of them can bring the whole app down, yet service meshes like Istio only offer fixed rules that people set by hand. I built a framework that runs as a single monitoring pod and needs no changes to application code. It reads traffic data from each service's Envoy sidecar, detects attacks with a separate ML model for each service, and patches Istio routing to move traffic to backup versions, then restores normal routing when the attack stops.
-
 - Per-service models (Random Forest, Gradient Boosting, SVM, Decision Tree) reached **94.0–97.8% accuracy** on 4,705 labeled traffic windows.
 - Running the models in parallel made each detection cycle **2.27× faster** than one central model across 12 pods.
+- An Isolation Forest fallback protects new services that do not have a trained model yet.
 - My earlier prototype analyzed more than 1.2M Envoy log entries and explained each detection with LIME.
+
+## Faster Image Retrieval over the Cloud
+*Corresponding author · with Dr. Jannatun Noor · IEEE Transactions on Cloud Computing* · [**Paper**](https://ieeexplore.ieee.org/document/9743811) · [**PDF**](https://drive.google.com/file/d/1cGszh8qcr3rGwz5syvW2p7vChsWeYC-B/view)
+Large images load slowly when internet bandwidth is low, which makes cloud apps hard to use in many parts of the world. We customized progressive JPEG with a new scan script, so images become usable sooner while they load, and with a lossy design that makes files smaller, then built a cloud storage and retrieval framework around it. I designed the compression module and built the cloud framework.
+- Cut user waiting time by up to **54%** and image size by up to **27%**.
+- Tested in a real-world setup across two continents with a private cloud.
+- Presented as a poster at NSysS 2021.
 
 # Other Research
 
@@ -61,15 +64,12 @@ Modern apps on Kubernetes are made of many small services, and a flood of reques
 
 We trekked for days through the hills of Bandarban, Bangladesh, to reach 15 villages of six Indigenous communities, many with no mobile network, electricity, or roads. More than half of the people we met had no mobile coverage at home, and many climbed to mountain peaks just to make a call. Our papers describe this "physical access" layer of the digital divide and how to do respectful fieldwork in such places.
 
-**Faster image retrieval over the cloud** · *Corresponding author · IEEE Transactions on Cloud Computing* · [[Paper]](https://ieeexplore.ieee.org/document/9743811)
-We customized progressive JPEG so images load faster and take less space in low-bandwidth settings, cutting user waiting time by up to 54% and image size by up to 27% in a real-world test across two continents.
-
 **DDoS mitigation with a resource-sharing network** · *Co-author and oral presenter · NSysS 2022* · [[Paper]](https://dl.acm.org/doi/10.1145/3569551.3569560)
 A network that tracks attacker IP addresses and drops their requests through a proxy, which mitigated 66.7% of attacks in a simulation with 50 Nginx virtual machines.
 
 # Industry & Engineering
 
-- **ML document validation for [Kramasoft](https://kramasoft.com/landing)**, a US mortgage-software company: classifiers that sort borrower documents and remove irrelevant pages before AWS Textract, running **45× faster than manual validation**.
+- **ML document validation for [Kramasoft](https://kramasoft.com/landing)**, a US mortgage-software company: I led a system whose ML classifiers sort borrower documents and remove irrelevant pages before AWS Textract extracts key fields, running **45× faster than manual validation** (scikit-learn, AWS Textract, Lambda, ECR, Amazon MQ, Spring Boot, PostgreSQL).
 - **Backend of [Janatar Sarkar](https://janatarsarkar.gov.bd/)**, a Bangladesh government portal serving **80,000+ citizens**: RESTful APIs and a JWT-based role management system.
 - **[FwdStar](/project/)**, a freight marketplace platform for Bangladesh (technical lead and sole architect, 2026–present): a Next.js and FastAPI system with 50+ REST endpoints, PostGIS, and layered security, built from a 2,695-line specification I wrote from the client's needs.
 
