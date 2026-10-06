@@ -42,6 +42,10 @@
 /* ===== Add these lines at the END of assets/css/main.scss ===== */
 
 /* Screenshot beside the text on computers, full width on phones */
+/* ===== These lines go at the END of assets/css/main.scss =====
+   (If you already added the .side-shot block before, keep it and add only the .wide-shot block.) */
+
+/* Photo beside the text on computers, full width on phones */
 .side-shot {
   display: block;
   width: 100%;
@@ -54,5 +58,21 @@
     width: 45%;
     max-width: 380px;
     margin: 0.3em 0 1em 1.5em;
+  }
+}
+
+/* Big screenshots and diagrams: on large screens, also use the empty
+   space to the right of the text column, so they appear about 25% bigger */
+.wide-shot {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0.5em 0 0.5em;
+  border-radius: 6px;
+}
+@media (min-width: 1200px) {
+  .wide-shot {
+    width: 125%;
+    max-width: none;
   }
 }
