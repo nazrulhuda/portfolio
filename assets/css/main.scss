@@ -65,8 +65,7 @@
   }
 }
 
-/* Big screenshots and diagrams: on large screens, also use the empty
-   space to the right of the text column, so they appear about 25% bigger */
+/* Big screenshots and diagrams: exactly as wide as the text column */
 .wide-shot {
   display: block;
   width: 100%;
@@ -74,9 +73,11 @@
   margin: 0.5em 0 0.5em;
   border-radius: 6px;
 }
-@media (min-width: 1200px) {
-  .wide-shot {
-    width: 125%;
-    max-width: none;
+
+/* Wider text column on laptops and desktops: the theme leaves a large empty
+   strip to the right of the text; use most of it so text and images line up */
+@media (min-width: 57.8125em) {
+  .page {
+    padding-right: 2%;
   }
 }
