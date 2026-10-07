@@ -23,9 +23,9 @@ Application-level DDoS attacks look like normal traffic, so older filtering meth
 
 *Junior Software Engineer, Tirzok Private Ltd., Dhaka · Feb 2023 – Dec 2023*
 
-### ML Document Validation for Kramasoft
+### ML Document Validation for CliQloan
 
-[Kramasoft](https://kramasoft.com/landing) is a US mortgage-software company and a client of Tirzok. Checking borrower documents by hand was slow and costly, so I led a system that does it automatically:
+[CliQloan](https://www.cliqloan.com/) is a mortgage loan origination system for brokers and loan officers, made by AmitaSoft, a client of Tirzok. Checking borrower documents by hand was slow and costly, so I led a system that does it automatically:
 
 - ML classifiers identify each document's type, and a page-trimming model removes irrelevant pages.
 - AWS Textract then extracts the key fields, and an automatic validation service checks them.

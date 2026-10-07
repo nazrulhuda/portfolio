@@ -10,7 +10,7 @@ redirect_from:
 
 I recently finished my **MS in Computer Science at Oklahoma State University** in May 2026, where I worked as a Graduate Research Assistant for more than two years. I am still working with [Dr. Paritosh Ramanan](https://ceat.okstate.edu/iem/people/ramanan-faculty-profile.html) in the [Distributed Intelligent Systems Lab](https://disys-lab.github.io/), where I built an LLM agent that lets people use zero-knowledge proof systems in plain language. I also worked with [Dr. Sharmin Jahan](https://experts.okstate.edu/sharmin.jahan), building an ML system that detects DDoS attacks on cloud services and responds to them automatically.
 
-Before my master's, I spent more than two years as an Undergraduate Research Assistant with [Dr. Jannatun Noor](https://sites.google.com/site/jannatun0abigzero/home) at BRAC University, working on faster image retrieval for cloud systems and leading fieldwork in remote Indigenous communities of Bangladesh. I also worked for a year as a software engineer, building an ML document-validation system for a US mortgage-software company and the backend of a national government portal.
+Before my master's, I spent more than two years as an Undergraduate Research Assistant with [Dr. Jannatun Noor](https://sites.google.com/site/jannatun0abigzero/home) at BRAC University, working on faster image retrieval for cloud systems and leading fieldwork in remote Indigenous communities of Bangladesh. I also worked for a year as a software engineer, building an ML document-validation system for a mortgage-software product and the backend of a national government portal.
 
 **I am applying to Computer Science PhD programs for Fall 2027.**
 [CV](/files/Shanto_PhD_CV.pdf) · [Publications](/publications/) · [Projects](/projects/) · [Google Scholar](https://scholar.google.com/citations?user=N9aZcZYAAAAJ&hl=en) · [GitHub](https://github.com/nazrulhuda)
@@ -87,7 +87,7 @@ Some Indigenous communities in the mountains of southeast Bandarban, Bangladesh,
 
 # Industry & Engineering
 
-- **ML document validation for [Kramasoft](https://kramasoft.com/landing)**, a US mortgage-software company: I led a system whose ML classifiers sort borrower documents and remove irrelevant pages before AWS Textract extracts key fields, running **45× faster than manual validation** (scikit-learn, AWS Textract, Lambda, ECR, Amazon MQ, Spring Boot, PostgreSQL).
+- **ML document validation for [CliQloan](https://www.cliqloan.com/)**, AmitaSoft's mortgage loan origination system: I led a system whose ML classifiers sort borrower documents and remove irrelevant pages before AWS Textract extracts key fields, running **45× faster than manual validation** (scikit-learn, AWS Textract, Lambda, ECR, Amazon MQ, Spring Boot, PostgreSQL).
 - **Backend of [Janatar Sarkar](https://janatarsarkar.gov.bd/)**, a Bangladesh government portal serving **80,000+ citizens**: RESTful APIs and a JWT-based role management system.
 - **[FwdStar](/projects/)**, a freight marketplace platform for Bangladesh (technical lead and sole architect, 2026–present): a Next.js and FastAPI system with 50+ REST endpoints, PostGIS, and layered security, built from a 2,695-line specification I wrote from the client's needs.
 
