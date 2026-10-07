@@ -7,6 +7,13 @@ redirect_from:
   - /hobbies.html
 ---
 
+# Cricket
+
+I am the founding captain of **Lagaan**, a cricket team in Stillwater, Oklahoma. We have won **two trophies**.
+
+[![Team Lagaan celebrating a trophy in Stillwater, Oklahoma](/images/cricket_team_lagaan.jpg){: .wide-shot}](/images/cricket_team_lagaan.jpg)
+*Team Lagaan with one of our trophies in Stillwater, Oklahoma.*
+
 Beyond the halls of Academia, I have a deep appreciation for nature, often exploring new trails. My passion for acting and filmmaking allows me to channel my creativity into crafting cinematic videos, while my love for singing provides another avenue for artistic expression. 
 
 # Cinematic Video
