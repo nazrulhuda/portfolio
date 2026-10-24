@@ -17,7 +17,7 @@ Before my master's, I spent more than two years as an Undergraduate Research Ass
 
 ## News
 
-- **Oct 2026:** Released a 2-minute demo of the Prover Assistant, showing one of the bugs my skeptical tools fix. [[Video]](https://youtu.be/MiPHBLRDVGc)
+- **Oct 2026:** Released a 2-minute demo of the Prover Assistant, showing one of the bugs my skeptical tools fix. [[Video]](https://youtu.be/AQkmil7ZKEE)
 - **Oct 2026:** My pull request to the [CoSMeTIC](https://github.com/disys-lab/cosmetic) zkSNARK framework was merged, including a fix for a bug that reported every valid KS and LRT proof as failed.
 - **Sep 2026:** Released the code, test suite, and all 6,371 result records from my skeptical-tools paper. [[Code & data]](https://github.com/disys-lab/Skeptical-MCP-For-zkSNARKs)
 - **Fall 2026:** Three more papers under review, at ICOIN 2027, ACM CHI 2027, and *Social Sciences & Humanities Open*.
@@ -29,11 +29,11 @@ Before my master's, I spent more than two years as an Undergraduate Research Ass
 
 ## Making LLM Agents Reliable When They Run Zero-Knowledge Proof Systems
 
-*First author · with Dr. Paritosh Ramanan · under review, IEEE BigData 2026* · [**Demo (1:55)**](https://youtu.be/MiPHBLRDVGc) · [**Paper**](https://github.com/disys-lab/Skeptical-MCP-For-zkSNARKs/blob/main/manuscript/Natural-Language-ZK-Verification-via-Skeptical-MCP-Tools.pdf) · [**Code & data**](https://github.com/disys-lab/Skeptical-MCP-For-zkSNARKs)
+*First author · with Dr. Paritosh Ramanan · under review, IEEE BigData 2026* · [**Demo (1:55)**](https://youtu.be/AQkmil7ZKEE) · [**Paper**](https://github.com/disys-lab/Skeptical-MCP-For-zkSNARKs/blob/main/manuscript/Natural-Language-ZK-Verification-via-Skeptical-MCP-Tools.pdf) · [**Code & data**](https://github.com/disys-lab/Skeptical-MCP-For-zkSNARKs)
 
 Zero-knowledge proofs let a clinical study prove that its statistics are correct without showing any patient records, but requesting a proof means writing exact API calls, which shuts out the participants and auditors these systems are meant to serve. I built an LLM agent that lets people request, check, download, and verify proofs in plain language (see the demo), using eight custom MCP tools on top of the CoSMeTIC zkSNARK framework. Every reply carries a trust label that the server sets, not the model. Because LLMs often leave out or invent the exact values these tools need, I designed *skeptical tools*: 20 server-side design decisions that check, complete or override what the model sends.
 
-[![Demo: without the fix, the agent says it can't find a proof job that the tracker still shows; with the fix, the same status question returns Status is done. Click to watch the full video.](/images/skeptical_demo.gif){: .side-shot}](https://youtu.be/MiPHBLRDVGc)
+[![Demo: without the fix, the agent says it can't find a proof job that the tracker still shows; with the fix, the same status question returns Status is done. Click to watch the full video.](/images/skeptical_demo.gif){: .side-shot}](https://youtu.be/AQkmil7ZKEE)
 
 - Task completion rose from **70% to 93%** on Qwen 3 32B, with a gain of about 23 points on all three model families we tested (6,000+ query runs).
 - A "plausible default" inside one tool silently sent **198 status checks to the wrong prover**, and the models then told users their job did not exist. Storing the proof type on the server, so the tool fills it in, removed all 198 errors.
