@@ -9,18 +9,20 @@ redirect_from:
 
 You can also find my papers on [Google Scholar](https://scholar.google.com/citations?user=N9aZcZYAAAAJ&hl=en).
 
-## Under Review
+## Accepted
 
-1. **M. N. H. Shanto** and P. Ramanan. "Natural-Language Zero-Knowledge Verification via Skeptical MCP Tools." *IEEE International Conference on Big Data (BigData 2026)*, Special Session on Privacy and Security of Big Data. Under review.  
+1. **M. N. H. Shanto** and P. Ramanan. "Natural-Language Zero-Knowledge Verification via Skeptical MCP Tools." *IEEE International Conference on Big Data (BigData 2026)*, Special Session on Privacy and Security of Big Data. Accepted.  
    [PDF](https://github.com/disys-lab/Skeptical-MCP-For-zkSNARKs/blob/main/manuscript/Natural-Language-ZK-Verification-via-Skeptical-MCP-Tools.pdf) · [Code & data](https://github.com/disys-lab/Skeptical-MCP-For-zkSNARKs)
 
-2. M. B. Hossain, **M. N. H. Shanto**, and S. Jahan. "A Decentralized ML-Based Framework for Service-Level DDoS Detection and Mitigation in Service Mesh Infrastructures." *41st International Conference on Information Networking (ICOIN 2027)*. Under review.  
+## Under Review
+
+1. M. B. Hossain, **M. N. H. Shanto**, and S. Jahan. "A Decentralized ML-Based Framework for Service-Level DDoS Detection and Mitigation in Service Mesh Infrastructures." *41st International Conference on Information Networking (ICOIN 2027)*. Under review.  
    [PDF](https://drive.google.com/file/d/1KdqIUXU8p5YX9Xib-yazjfmLLQQOJWKe/view?usp=sharing) · [Prototype code](https://github.com/nazrulhuda/AI-Driven-Anomaly-Detector-and-mitigation-as-a-service)
 
-3. J. Noor, **M. N. H. Shanto**, M. G. Z. A. Husna, J. Tripura, and A. B. M. A. A. Islam. "Design within the 'Back of Beyond': Digital Divide and Opportunities among Highly-Vulnerable Ethnic Communities in Remote Nature of Bangladesh." *ACM CHI Conference on Human Factors in Computing Systems (CHI 2027)*. Under review.  
+2. J. Noor, **M. N. H. Shanto**, M. G. Z. A. Husna, J. Tripura, and A. B. M. A. A. Islam. "Design within the 'Back of Beyond': Digital Divide and Opportunities among Highly-Vulnerable Ethnic Communities in Remote Nature of Bangladesh." *ACM CHI Conference on Human Factors in Computing Systems (CHI 2027)*. Under review.  
    [PDF](https://drive.google.com/file/d/1CM6S0IEtVTGResn1ibBI_WT42TLttXBT/view?usp=sharing)
 
-4. J. Noor, **M. N. H. Shanto**, M. G. Z. A. Husna, J. Tripura, and A. B. M. A. A. Islam. "Physical Access Before Digital Access: Fieldwork Reflections from the Little-Known Indigenous Communities in Bangladesh." *Social Sciences & Humanities Open* (Elsevier). Under review.  
+3. J. Noor, **M. N. H. Shanto**, M. G. Z. A. Husna, J. Tripura, and A. B. M. A. A. Islam. "Physical Access Before Digital Access: Fieldwork Reflections from the Little-Known Indigenous Communities in Bangladesh." *Social Sciences & Humanities Open* (Elsevier). Under review.  
    [PDF](https://drive.google.com/file/d/1Db3PFK6loLyPHUt5R_66nLD8bsfMnogv/view?usp=sharing)
 
 ## Published
