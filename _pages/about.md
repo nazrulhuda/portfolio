@@ -34,7 +34,10 @@ Before my master's, I spent more than two years as an Undergraduate Research Ass
 
 Zero-knowledge proofs let a clinical study prove that its statistics are correct without showing any patient records, but requesting a proof means writing exact API calls, which shuts out the participants and auditors these systems are meant to serve. I built an LLM agent that lets people request, check, download, and verify proofs in plain language (see the demo), using eight custom MCP tools on top of the CoSMeTIC zkSNARK framework. Every reply carries a trust label that the server sets, not the model. Because LLMs often leave out or invent the exact values these tools need, I designed *skeptical tools*: 20 server-side design decisions that check, complete or override what the model sends.
 
-[![Demo: without the fix, the agent says it can't find a proof job that the tracker still shows; with the fix, the same status question returns Status is done. Click to watch the full video.](/images/skeptical_demo.gif){: .side-shot}](https://youtu.be/AQkmil7ZKEE)
+<div class="demo-wide">
+  <a href="/images/skeptical_demo.mp4" target="_blank" rel="noopener"><video src="/images/skeptical_demo.mp4" poster="/images/skeptical_demo_poster.jpg" autoplay muted loop playsinline aria-label="Demo: without the fix, the agent says it can't find a proof job that the tracker still shows; with the fix, the same status question returns Status is done."></video></a>
+  <p class="media-caption">The same status question, without and with the fix. Click to see it full size, or <a href="https://youtu.be/AQkmil7ZKEE">watch the full demo (1:55)</a>.</p>
+</div>
 
 - Task completion rose from **70% to 93%** on Qwen 3 32B, with a gain of about 23 points on all three model families we tested (6,000+ query runs).
 - A "plausible default" inside one tool silently sent **198 status checks to the wrong prover**, and the models then told users their job did not exist. Storing the proof type on the server, so the tool fills it in, removed all 198 errors.
