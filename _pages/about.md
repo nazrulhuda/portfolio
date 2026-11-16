@@ -10,13 +10,14 @@ redirect_from:
 
 I recently finished my **MS in Computer Science at Oklahoma State University** in May 2026, where I worked as a Graduate Research Assistant for more than two years. I am still working with [Dr. Paritosh Ramanan](https://ceat.okstate.edu/iem/people/ramanan-faculty-profile.html) in the [Distributed Intelligent Systems Lab](https://disys-lab.github.io/), where I built an LLM agent that lets people use zero-knowledge proof systems in plain language. I also worked with [Dr. Sharmin Jahan](https://experts.okstate.edu/sharmin.jahan), building an ML system that detects DDoS attacks on cloud services and responds to them automatically.
 
-Before my master's, I spent more than two years as an Undergraduate Research Assistant with [Dr. Jannatun Noor](https://sites.google.com/site/jannatun0abigzero/home) at BRAC University, working on faster image retrieval for cloud systems and leading fieldwork in remote Indigenous communities of Bangladesh. I also worked for a year as a software engineer, building an ML document-validation system for a mortgage-software product and the backend of a national government portal.
+Before my master's, I spent more than two years as an Undergraduate Research Assistant with [Dr. Jannatun Noor](https://sites.google.com/site/jannatun0abigzero/home) at BRAC University, working on faster image retrieval for cloud systems and leading fieldwork in remote Indigenous communities of Bangladesh. I also worked for a year as a software engineer, building an ML document-validation system for a mortgage-software product and the backend of a national government portal. Most recently I built and measured [FilingCheck](#skeptical-tools-on-public-data-filingcheck), an LLM agent over SEC filings that applies the same skeptical-tools idea to public data.
 
 **I am applying to Computer Science PhD programs for Fall 2027.**
 [CV](/files/Shanto_PhD_CV.pdf) · [Publications](/publications/) · [Projects](/projects/) · [Google Scholar](https://scholar.google.com/citations?user=N9aZcZYAAAAJ&hl=en) · [GitHub](https://github.com/nazrulhuda)
 
 ## News
 
+- **Nov 2026:** Launched FilingCheck 1.0, an LLM agent over SEC 10-K filings whose server checks every number lookup before it runs, with a pre-registered measurement on 110 sealed trap questions: the checks cut confidently wrong answers from 18.5% to 10.6%, and the same rules written into the prompt were more accurate still. [[Live page]](https://filingcheck.vercel.app) [[Code]](https://github.com/nazrulhuda/filingcheck) [[Report]](https://github.com/nazrulhuda/filingcheck/blob/v1.0/eval/results/2026-11-14_final_report.md)
 - **Nov 2026:** My first-author paper with Dr. Paritosh Ramanan, "Natural-Language Zero-Knowledge Verification via Skeptical MCP Tools", was accepted at IEEE BigData 2026. [[Paper]](https://github.com/disys-lab/Skeptical-MCP-For-zkSNARKs/blob/main/manuscript/Natural-Language-ZK-Verification-via-Skeptical-MCP-Tools.pdf) [[Code & data]](https://github.com/disys-lab/Skeptical-MCP-For-zkSNARKs)
 - **Oct 2026:** Released a 2-minute demo of the Prover Assistant, showing one of the bugs my skeptical tools fix. [[Video]](https://youtu.be/AQkmil7ZKEE)
 - **Oct 2026:** My pull request to the [CoSMeTIC](https://github.com/disys-lab/cosmetic) zkSNARK framework was merged, including a fix for a bug that reported every valid KS and LRT proof as failed.
@@ -49,6 +50,20 @@ Zero-knowledge proofs let a clinical study prove that its statistics are correct
 
 [![System architecture of the skeptical MCP agent](/images/skeptical_architecture.png){: .wide-shot}](/images/skeptical_architecture.png)
 *How it works: every tool call from the LLM agent passes through an interceptor that replaces any identity the model invents, and the MCP server checks the request against stored state before calling the CoSMeTIC provers. Labels such as A3 and B2–B7 refer to design decisions in the paper, for example A3 (server-side identity) and B4–B6 (finding the right job, proof type, and prover from stored state).*
+
+## Skeptical Tools on Public Data: FilingCheck
+
+*Independent project · Oct–Nov 2026 · pre-registered measurement, not peer-reviewed* · [**Live page**](https://filingcheck.vercel.app) · [**Code**](https://github.com/nazrulhuda/filingcheck) · [**Full report**](https://github.com/nazrulhuda/filingcheck/blob/v1.0/eval/results/2026-11-14_final_report.md) · [**Pre-registration**](https://github.com/nazrulhuda/filingcheck/blob/v1.0/eval/PREREGISTRATION.md)
+
+To test the skeptical-tools idea outside my lab's proof system, I built an LLM agent that answers questions about the SEC 10-K filings of 25 large US companies, where the correct numbers are public. Before each number lookup the model requests runs, the server checks the company, the fiscal year, the metric and period, the units and the segment against the question and the SEC data; it repairs what the question settles and sends the rest back to the model, logging every decision. After the model answers, every figure is labeled Verified, Conflict or Unverified against the answer's sources. I wrote a pre-registration before the first result row, sealed two held-out question files by hash, and ran the measurement once from a tagged commit: 110 trap questions, 3 runs each, scored by rules fixed in advance.
+
+[![Correct answers and confidently wrong answers on the 110 held-out questions, for search only, the agent with no checks, the agent with the rules in the prompt, and the agent with the server checks, each with its 95% interval](/images/filingcheck_summary.png){: .wide-shot}](/images/filingcheck_summary.png)
+*Correct and confidently wrong answers on the 110 held-out questions, by arm, with 95% intervals, drawn by the report code from the committed result rows.*
+
+- The pre-registered headline: against no checks, the server checks cut confidently wrong answers from **18.5% to 10.6%** (95% interval of the difference -12.7 to -3.6 points).
+- The same rules written into the model's prompt, with no checks, were **more accurate than enforcing them on the server** (85.2% against 75.5%) and level on confidently wrong answers, at about two and a half times the cost per question. The report says both, with the intervals.
+- Of 90 failed runs with the checks on, read one by one, 23 came from phrasings the checks do not read and 17 from a check's own action, such as asking which fiscal year was meant where the question's writer accepted the nearest one.
+- Every number in the report, the README and the live page is recomputed from the committed rows by one command, with no API key and no database, and a CI job fails on any difference. The test questions were written by AI models, not a person; the limits are listed in the README.
 
 ## Automatic DDoS Defense for Cloud Service Meshes
 

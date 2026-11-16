@@ -7,7 +7,7 @@ redirect_from:
   - /project.html
 ---
 
-My four main research projects are on the [homepage](/). This page covers my other research, my industry work, and the systems I have built.
+My main research projects, and FilingCheck, are on the [homepage](/). This page covers my other research, my industry work, and the systems I have built.
 
 ## Research
 
