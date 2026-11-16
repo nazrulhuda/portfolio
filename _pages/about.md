@@ -17,12 +17,13 @@ Before my master's, I spent more than two years as an Undergraduate Research Ass
 
 ## News
 
+- **Nov 2026:** Our paper with Dr. Sharmin Jahan, "A Decentralized ML-Based Framework for Service-Level DDoS Detection and Mitigation in Service Mesh Infrastructures", was accepted at ICOIN 2027. [[Paper]](https://drive.google.com/file/d/1KdqIUXU8p5YX9Xib-yazjfmLLQQOJWKe/view?usp=sharing) [[Prototype code]](https://github.com/nazrulhuda/AI-Driven-Anomaly-Detector-and-mitigation-as-a-service)
 - **Nov 2026:** Launched FilingCheck 1.0, an LLM agent over SEC 10-K filings whose server checks every number lookup before it runs, with a pre-registered measurement on 110 sealed trap questions: the checks cut confidently wrong answers from 18.5% to 10.6%, and the same rules written into the prompt were more accurate still. [[Live page]](https://filingcheck.vercel.app) [[Code]](https://github.com/nazrulhuda/filingcheck) [[Report]](https://github.com/nazrulhuda/filingcheck/blob/v1.0/eval/results/2026-11-14_final_report.md)
 - **Nov 2026:** My first-author paper with Dr. Paritosh Ramanan, "Natural-Language Zero-Knowledge Verification via Skeptical MCP Tools", was accepted at IEEE BigData 2026. [[Paper]](https://github.com/disys-lab/Skeptical-MCP-For-zkSNARKs/blob/main/manuscript/Natural-Language-ZK-Verification-via-Skeptical-MCP-Tools.pdf) [[Code & data]](https://github.com/disys-lab/Skeptical-MCP-For-zkSNARKs)
 - **Oct 2026:** Released a 2-minute demo of the Prover Assistant, showing one of the bugs my skeptical tools fix. [[Video]](https://youtu.be/AQkmil7ZKEE)
 - **Oct 2026:** My pull request to the [CoSMeTIC](https://github.com/disys-lab/cosmetic) zkSNARK framework was merged, including a fix for a bug that reported every valid KS and LRT proof as failed.
 - **Sep 2026:** Released the code, test suite, and all 6,371 result records from my skeptical-tools paper. [[Code & data]](https://github.com/disys-lab/Skeptical-MCP-For-zkSNARKs)
-- **Fall 2026:** Three papers under review, at ICOIN 2027, ACM CHI 2027, and *Social Sciences & Humanities Open*.
+- **Fall 2026:** Two papers under review, at ACM CHI 2027 and *Social Sciences & Humanities Open*.
 - **Jul 2026:** Our paper on Indigenous primary education was accepted at ACM COMPASS 2026. [[Paper]](https://dl.acm.org/doi/abs/10.1145/3811242.3819095)
 - **May 2026:** Completed my MS in Computer Science at Oklahoma State University.
 - **Summer 2025:** Taught AI to 10 K–12 teachers as an AI Instructor in OSU's NSF Research Experiences for Teachers program.
@@ -67,7 +68,7 @@ To test the skeptical-tools idea outside my lab's proof system, I built an LLM a
 
 ## Automatic DDoS Defense for Cloud Service Meshes
 
-*Second author · with Dr. Sharmin Jahan · under review, ICOIN 2027* · [**Paper**](https://drive.google.com/file/d/1KdqIUXU8p5YX9Xib-yazjfmLLQQOJWKe/view?usp=sharing) · [**Prototype code**](https://github.com/nazrulhuda/AI-Driven-Anomaly-Detector-and-mitigation-as-a-service)
+*Second author · with Dr. Sharmin Jahan · accepted, ICOIN 2027* · [**Paper**](https://drive.google.com/file/d/1KdqIUXU8p5YX9Xib-yazjfmLLQQOJWKe/view?usp=sharing) · [**Prototype code**](https://github.com/nazrulhuda/AI-Driven-Anomaly-Detector-and-mitigation-as-a-service)
 
 Modern apps on Kubernetes are made of many small services, and a flood of requests to one of them can bring the whole app down, yet service meshes like Istio only offer fixed rules that people set by hand. I built a framework that runs as a single monitoring pod and needs no changes to application code. It reads traffic data from each service's Envoy sidecar, detects attacks with a separate ML model for each service, and patches Istio routing to move traffic to backup versions, then restores normal routing when the attack stops.
 
