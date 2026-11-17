@@ -54,17 +54,25 @@ Zero-knowledge proofs let a clinical study prove that its statistics are correct
 
 ## Skeptical Tools on Public Data: FilingCheck
 
-*Independent project · Oct–Nov 2026 · pre-registered measurement, not peer-reviewed* · [**Live page**](https://filingcheck.vercel.app) · [**Code**](https://github.com/nazrulhuda/filingcheck) · [**Full report**](https://github.com/nazrulhuda/filingcheck/blob/v1.0/eval/results/2026-11-14_final_report.md) · [**Pre-registration**](https://github.com/nazrulhuda/filingcheck/blob/v1.0/eval/PREREGISTRATION.md)
+*Independent project · Oct–Nov 2026 · pre-registered measurement, not peer-reviewed* · [**Live page**](https://filingcheck.vercel.app) · [**Code**](https://github.com/nazrulhuda/filingcheck) · [**Full report**](https://github.com/nazrulhuda/filingcheck/blob/v1.0/eval/results/2026-11-14_final_report.md) · [**Pre-registration**](https://github.com/nazrulhuda/filingcheck/blob/main/eval/PREREGISTRATION.md)
 
-To test the skeptical-tools idea outside my lab's proof system, I built an LLM agent that answers questions about the SEC 10-K filings of 25 large US companies, where the correct numbers are public. Before each number lookup the model requests runs, the server checks the company, the fiscal year, the metric and period, the units and the segment against the question and the SEC data; it repairs what the question settles and sends the rest back to the model, logging every decision. After the model answers, every figure is labeled Verified, Conflict or Unverified against the answer's sources. I wrote a pre-registration before the first result row, sealed two held-out question files by hash, and ran the measurement once from a tagged commit: 110 trap questions, 3 runs each, scored by rules fixed in advance.
+<!-- Video: the link to the two-minute FilingCheck demo goes here when it exists. -->
+
+To test the skeptical-tools idea outside my lab's proof system, I built an LLM agent that answers questions about the SEC 10-K filings of 25 large US companies, where the correct numbers are public. Before each number lookup the model requests runs, the server checks the company, the fiscal year, the metric and period, the units and the segment against the question and the SEC data; it repairs what the question settles and sends the rest back to the model, logging every decision. After the model answers, every figure is labeled Verified, Conflict or Unverified against the answer's sources. The measurement was pre-registered before the first result row and run once from a tagged commit, on two held-out question files sealed by hash: 110 trap questions, 3 runs each, scored by rules fixed in advance.
 
 [![Correct answers and confidently wrong answers on the 110 held-out questions, for search only, the agent with no checks, the agent with the rules in the prompt, and the agent with the server checks, each with its 95% interval](/images/filingcheck_summary.png){: .wide-shot}](/images/filingcheck_summary.png)
 *Correct and confidently wrong answers on the 110 held-out questions, by arm, with 95% intervals, drawn by the report code from the committed result rows.*
 
+[![The live FilingCheck page: the question box, "Try an example" with five example questions and their tags, and under them the saved answer to "How much revenue did Nike make last year?", with $46,398 million labeled Verified and the "What was checked" panel showing the year corrected from the model's 2025 to fiscal 2026](/images/filingcheck_page.png){: .side-shot}](/images/filingcheck_page.png)
+
 - The pre-registered headline: against no checks, the server checks cut confidently wrong answers from **18.5% to 10.6%** (95% interval of the difference -12.7 to -3.6 points).
-- The same rules written into the model's prompt, with no checks, were **more accurate than enforcing them on the server** (85.2% against 75.5%) and level on confidently wrong answers, at about two and a half times the cost per question. The report says both, with the intervals.
-- Of 90 failed runs with the checks on, read one by one, 23 came from phrasings the checks do not read and 17 from a check's own action, such as asking which fiscal year was meant where the question's writer accepted the nearest one.
-- Every number in the report, the README and the live page is recomputed from the committed rows by one command, with no API key and no database, and a CI job fails on any difference. The test questions were written by AI models, not a person; the limits are listed in the README.
+- The same rules written into the model's prompt, with no checks, were **more accurate than enforcing them on the server** (85.2% against 75.5%), with no clear difference on confidently wrong answers, at about two and a half times the cost per question. The report says both, with the intervals.
+- Of 90 failed runs with the checks on, read one by one, 23 came from gaps in the checks and 17 from a check's own action.
+- Every number in the report, the README and the live page is recomputed from the committed rows by one command, with no API key and no database, and a CI job fails on any difference. The limits are listed in the README.
+
+<div style="clear: both;"></div>
+
+Next: questions written by a person, a second model, and the prompt rules and the checks together, on new sealed questions.
 
 ## Automatic DDoS Defense for Cloud Service Meshes
 
